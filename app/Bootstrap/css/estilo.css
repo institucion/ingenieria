@@ -1,5 +1,9 @@
 
+<<<<<<< HEAD
 	html{
+=======
+  html{
+>>>>>>> 41b3cbf608dc5b10d3c096900e47490ab3aebed8
 position: relative;
 min-height: 100%;
 }
@@ -12,6 +16,7 @@ background:#000000;
 color: white;
 text-align: center;
 
+<<<<<<< HEAD
 	}
 body{
 	background-image: url('fondo.jpg');
@@ -36,11 +41,28 @@ body{
 .formulario{
 	border-radius: 1em;
 	width:450px;
+=======
+  }
+body{
+  background-image: url('fondo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    font-family: modern;
+}
+
+
+.formulario{
+  border-radius: 1em;
+  width:450px;
+>>>>>>> 41b3cbf608dc5b10d3c096900e47490ab3aebed8
    height:250px;
    margin-top: 0%;
 
 
 }
+<<<<<<< HEAD
 .cont{
 	margin-top: 4%;
 }
@@ -78,9 +100,47 @@ margin-left: 30%;
   
 
   IMG.imgcenter{
+=======
+.contlg{
+  margin-top: 4%;
+}
+.inlg{
+  margin-top: 3%;
+    margin-left: 19%;
+    margin-right: 19%;
+
+}
+.ingrelg{
+  border-radius: 0.5em;
+width: 10%;
+ background: #58b3e2;
+  margin-top: 10%;
+margin-left: 30%;
+  margin-right: 9%;
+  border-color:black;
+  
+
+  
+  } 
+.titulolg{
+  
+  color: black;
+  font-size: 28px;
+  margin-top: 7%;
+}
+IMG.imgcenter{
+>>>>>>> 41b3cbf608dc5b10d3c096900e47490ab3aebed8
       display: block;
       margin-left: auto;
       margin-right: auto;
       margin-top: 1%;
       border:none;
+<<<<<<< HEAD
       }
+=======
+      width:20%
+      }
+
+      
+ 
+>>>>>>> 41b3cbf608dc5b10d3c096900e47490ab3aebed8
