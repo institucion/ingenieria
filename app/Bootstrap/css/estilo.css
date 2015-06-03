@@ -1,0 +1,71 @@
+
+  html{
+position: relative;
+min-height: 100%;
+}
+
+.footer{
+position:absolute; 
+bottom: 0;
+width: 100%;
+background:#000000; 
+color: white;
+text-align: center;
+
+  }
+body{
+  background-image: url('fondo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    font-family: modern;
+}
+
+
+.formulario{
+  border-radius: 1em;
+  width:450px;
+   height:250px;
+   margin-top: 0%;
+
+
+}
+.contlg{
+  margin-top: 4%;
+}
+.inlg{
+  margin-top: 3%;
+    margin-left: 19%;
+    margin-right: 19%;
+
+}
+.ingrelg{
+  border-radius: 0.5em;
+width: 10%;
+ background: #58b3e2;
+  margin-top: 10%;
+margin-left: 30%;
+  margin-right: 9%;
+  border-color:black;
+  
+
+  
+  } 
+.titulolg{
+  
+  color: black;
+  font-size: 28px;
+  margin-top: 7%;
+}
+IMG.imgcenter{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1%;
+      border:none;
+      width:20%
+      }
+
+      
+ 

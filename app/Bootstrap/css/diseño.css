@@ -1,0 +1,211 @@
+
+html{
+position: relative;
+min-height: 100%;
+}
+
+.footer{
+position:absolute; 
+bottom: 0;
+width: 100%;
+background:#000000; 
+color: white;
+text-align: center;
+
+  }
+body{
+  background-image: url('fondo.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+    font-family: modern;
+}
+.p{
+	
+	margin-top: -10px;
+	font-size: 20px;
+
+}
+.formulario{
+	border-radius: 1em;
+	width:95%;
+   height:540px;
+   margin-top: 55px;
+}
+.formulario1{
+  border-radius: 1em;
+  width:100%;
+   height:540px;
+   margin-top: 55px;
+
+
+}
+
+.for1{
+	
+   margin-top: -350px;
+
+   
+}
+.for{
+  
+   margin-top: -350px;
+
+   
+}
+.foro{
+  width:120%;
+   margin-top: -350px;
+   margin-left:25px;
+
+   
+}
+.cont{
+	margin-top: 4%;
+}
+.in{
+margin-top: 9%;
+		margin-left: 19%;
+		margin-right: 19%;
+
+}
+IMG.imgcenter{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1%;
+      border:none;
+      width:60%
+      }
+IMG.imgcentercen{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -2%;
+      border:none;
+      width:15%
+      }
+
+      #tam{
+width:250%;
+
+      }
+#tam2{
+width:158%;
+      }
+.col{
+width:20%;
+
+
+      }
+#pos{
+      margin-top: -100px; 
+      margin-left: 230px;
+    }
+   #ubi{
+        margin-left: 10%;
+   	      }
+#ubic{
+        margin-left: 10%;
+        margin-top: 10px;
+        width: 60%
+
+                 }
+
+
+
+
+.formulariolg{
+	border-radius: 1em;
+   width:30%;
+   height:250px;
+   margin-top: 0%;
+}
+.formulariofor{
+  border-radius: 1em;
+  width:450px;
+   height:250px;
+   margin-top: 0%;
+}
+.contl{
+	margin-top: 4%;
+  margin-left: -70%;
+}
+
+.ingr{
+	border-radius: 0.5em;
+            width: 25%;
+       background: #58b3e2;
+ 	   margin-top: 3%;
+     margin-left: 5%;
+	border-color:black;
+  }
+  .cool{
+  border-radius: 0.5em;
+            width: 100%;
+       background: #58b3e2;
+     margin-top: 3%;
+     margin-left: 5%;
+  border-color:black;
+  }  
+  .pc{
+  
+  margin-top: 17px;
+  font-size: 20px;
+
+}
+.ing{
+	border-radius: 0.5em;
+            width: 25%;
+       background: #58b3e2;
+ 	   margin-top: 3%;
+ 	   margin-left: 5%;
+     border-color:black;
+  } 
+.ingres{
+	border-radius: 0.5em;
+            width: 25%;
+       background: #58b3e2;
+ 	   margin-top: 3%;
+     margin-left: 5%;
+	border-color:black;
+  } 
+.inges{
+	border-radius: 0.5em;
+            width: 25%;
+       background: #58b3e2;
+ 	   margin-top: 3%;
+ 	   margin-left: 25%;
+     border-color:black;
+  } 
+.mod{
+	border-radius: 0.5em;
+            width: 25%;
+       background: #58b3e2;
+ 	   margin-top: 3%;
+     margin-left: -82%;
+	border-color:black;
+  } 
+
+.eli{
+	border-radius: 0.5em;
+            width: 25%;
+       background: #58b3e2;
+ 	   margin-top: -6%;
+ 	   margin-left: 82%;
+     border-color:black;
+  } 
+  #tama{
+width:70%;
+}
+.inp{
+margin-top: 3%;
+		margin-left: 19%;
+		margin-right: 19%;
+
+}
+#ubica{
+        margin-left: 30%;
+          }
+
