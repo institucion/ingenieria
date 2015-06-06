@@ -77,6 +77,8 @@ IMG.imgcenter{
       border:none;
       width:60%
       }
+
+
 IMG.imgcentercen{
       display: block;
       margin-left: auto;
@@ -122,12 +124,7 @@ width:20%;
 
 
 
-.formulariolg{
-	border-radius: 1em;
-   width:30%;
-   height:250px;
-   margin-top: 0%;
-}
+
 .formulariofor{
   border-radius: 1em;
   width:450px;
@@ -236,5 +233,37 @@ margin-top: 3%;
  .l{
   margin-top:5%;
  }
+  .formulariolg{
+  border-radius: 1em;
+  background: #FFFFFF;
+}
+.esp{
+  margin-top: 9%;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+.ingresarlg{
+  border-radius: 0.5em;
+width: 40%;
+ background: #58b3e2;
+  margin-top: 10%;
+margin-left: 12%;
+  margin-right: 9%;
+  border-color:black;
+}
+.inlg{
+  
+  color: black;
+  font-size: 20px;
+  margin-top: 7%;
+}
+IMG.imgcenterlg{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1%;
+      border:none;
+      width:20%;
 
 
+      }

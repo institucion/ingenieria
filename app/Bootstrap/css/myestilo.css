@@ -23,24 +23,6 @@ body{
 }
 
 
-.formulariolg{
-	border-radius: 1em;
-   width:30%;
-   height:250px;
-   margin-top: 0%;
-
-
-
-
-}
-.formulariofor{
-  border-radius: 1em;
-  width:450px;
-   height:250px;
-   margin-top: 0%;
-
-
-}
 .contl{
 	margin-top: 4%;
   margin-left: -70%;
@@ -75,12 +57,5 @@ margin-left: 32%;
 	font-size: 28px;
 	margin-top: 7%;
 }
-IMG.imgcenter{
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 1%;
-      border:none;
-      width:20%
-      }
+
 
