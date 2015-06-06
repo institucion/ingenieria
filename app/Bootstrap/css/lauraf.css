@@ -1,0 +1,158 @@
+html{
+position: relative;
+min-height: 100%;
+}
+.footer{
+position:absolute; 
+bottom: 0;
+width: 100%;
+background:#000000; 
+color: white;
+text-align: center;
+
+  }
+
+body{
+	background-image: url('fondo.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: modern;
+  
+}
+.p{
+	
+	
+	font-size: 20px;
+}
+.titulo1{
+	margin-top: -50px;
+}
+.pie{
+	
+	
+	font-size: 20px;
+	
+}
+.formulario{
+	border-radius: 1em;
+	width:1000px;
+   height:500px;
+   margin-top: 55px;
+
+
+}
+.for{
+	
+   margin-top: -350px;
+
+   
+}
+.cont{
+	margin-top: 4%;
+}
+.in{
+margin-top: 10%;
+		margin-left: 19%;
+		margin-right: 19%;
+
+}
+.ingre{
+	border-radius: 0.5em;
+width: 40%;
+ background: #58b3e2;
+ 	margin-top: 5%;
+margin-left: 30%;
+	margin-right: 9%;
+	border-color:black;
+  
+
+  }
+  .ingres{
+  border-radius: 0.5em;
+width: 40%;
+ background: #58b3e2;
+  margin-top: 5%;
+margin-left: -15%;
+  margin-right: 9%;
+  border-color:black;
+  
+
+  
+  }
+  .ingre2{
+	border-radius: 0.5em;
+width: 40%;
+ background: #58b3e2;
+ 	margin-top: -10%;
+margin-left: 67%;
+	margin-right: 9%;
+	border-color:black;
+  
+
+ 	
+  } 
+  .consultar{
+    background: #58b3e2;
+    border-color: black;
+    margin-left: 10px;
+  } 
+  .consultar2{
+    background: #58b3e2;
+    border-color: black;
+    margin-left: 15px;
+  } 
+  .tituv{
+    
+     margin-left: 60px;
+  }
+  .titu{
+  	background:#000000 ;
+  	width: 1366px;
+  	height: 85px;
+
+  
+  }
+
+  
+  
+
+  IMG.imgcenter{
+      display: block;
+      margin-left: 10px;
+      width:60%;
+      margin-top: 1%;
+      border:none;
+      margin-top: 10px;
+      }
+#tam{
+width:250%;
+
+}
+#tam2{
+width:140%;
+ }
+.col{
+width:20%;
+ }
+.col2{
+  width: 30%;
+}
+#pos{
+margin-top: -100px; 
+margin-left: 230px;
+}
+.table{
+
+padding: 8px;
+  line-height: 1.428571429;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+  margin-top: 10px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-top: 30px;
+
+
+}

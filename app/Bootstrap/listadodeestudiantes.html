@@ -17,7 +17,7 @@
 		<div class="col-md-4"><img  src="css/escudo.png" width="200" height="200" class="imgcenter" ></div>
 			<div class="col-md-8" id="pos">
 				<strong><h1 class="titulo1" align="center">Institución Educativa General Santander</h1></strong>
-				<h5 class="titulo p" align="center">Asignaturas que ya no se imparten</h5>
+				<h5 class="titulo p" align="center">Listado de Estudiantes</h5>
 
 			</div>
 		</header>
@@ -32,9 +32,15 @@
         <td>
   <div class="input-group ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-         <input type="text" class="form-control" placeholder="Nombre Asignatura" required>
+         <input type="text" class="form-control" placeholder="Grado" required>
+
          </div>
         </td>
+        <td> <div class="input-group ">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+         <input type="text" class="form-control" placeholder="Grupo" required>
+         
+         </div></td>
         <td>
 <center><button type="submit" class="btn btn-primary form-control consultar">Consultar</button></center>
         </td>
@@ -47,10 +53,17 @@
 <table class="table">
     <thead>
        <tr class= "active">
-            <th></th>
-            <th>Codigo</th>
-            <th></th>
-            <th>Nombre Asignatura</th>
+            <th>#</th>
+            <th>Identificacion</th>
+            <th>Nombres</th>
+            <th>Apellidos</th>
+            <th>Sexo</th>
+            <th>Edad</th>
+            <th>Acudiente</th>
+            <th>Telefono</th>
+            <th>Grado</th>
+            <th>Grupo</th>
+
         </tr>
     </thead>
     <tbody>

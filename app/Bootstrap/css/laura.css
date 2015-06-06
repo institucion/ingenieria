@@ -1,0 +1,108 @@
+html{
+position: relative;
+min-height: 100%;
+}
+.footer{
+position:absolute; 
+bottom: 0;
+width: 100%;
+background:#000000; 
+color: white;
+text-align: center;
+
+  }
+body{
+	background-image: url('fondo.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+
+
+	font-family: modern;
+}
+
+.p{
+	
+	color: black;
+	font-size: 18px;
+	margin-top: -16%;
+}
+.pie{
+	
+	color: white;
+	font-size: 20px;
+	margin-top: 3%;
+}
+.formulario{
+	border-radius: 1em;
+	width:1000px;
+   height:500px;
+   margin-top: 55px;
+
+
+}
+.formulario2{
+  border-radius: 1em;
+  width:100%;
+   margin-top: 55px;
+   height:200%;
+
+
+}
+.espacio{
+  margin-top: 50px;
+}
+.for{
+	
+   margin-top: -280px;
+   
+}
+.cont{
+	margin-top: 4%;
+}
+.in{
+	margin-top: 3%;
+		margin-left: 19%;
+		margin-right: 19%;
+
+}
+.ingre{
+	border-radius: 0.5em;
+width: 40%;
+ background: #58b3e2;
+ 	margin-top: 0%;
+margin-left: 30%;
+	margin-right: 9%;
+	border-color:black;
+  
+
+ 	
+  } 
+  .titu{
+  	background:#000000 ;
+  	width: 1366px;
+  	height: 85px;
+  
+  }
+
+    
+  
+
+  IMG.imgcenter{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1%;
+      border:none;
+      
+      }
+      IMG.imgcentercen{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -2%;
+      border:none;
+      width:15%
+      }
