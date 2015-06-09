@@ -5,8 +5,8 @@
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 	<title>Proyecto</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/diseño.css">
+	<link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
+	<link rel="stylesheet" type="text/css" href="{{ asset ('css/diseño.css')}}">
 	 
 </head>
 <body>
@@ -22,7 +22,7 @@
 	             		<img  src="css/escudo.png" class="imgcentercen img-responsive">
 	             		<div class="container">
 	             			<div class="col-md-3  "></div>
-      						<div class="col-md-2 "><center><a href="registroalumnos.html"><img src="Iconos/gestionarestudiante.svg" class="img-rounded " wigth="100" height="100"></a><p><br><strong>Gestionar Estudiante<strong></p></center></div>
+      						<div class="col-md-2 "><center><a href="estudiante"><img src="Iconos/gestionarestudiante.svg" class="img-rounded " wigth="100" height="100"></a><p><br><strong>Gestionar Estudiante<strong></p></center></div>
      					    <div class="col-md-2 "><center><a href="#"><img src="Iconos/consultarestudiante.svg" class="img-rounded"  wigth="100" height="100"></a><p><br><strong>Consultar Estudiante<strong></p></center></div>
      					    <div class="col-md-2 "><center><a href="#"><img src="Iconos/verasignatura.svg" class="img-rounded"  wigth="100" height="100"></a><p><br><strong>Ver Asignatura del Estudiante<strong></p></center></div>
      						<div class="col-md-3 "></div>
