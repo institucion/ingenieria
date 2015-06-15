@@ -1,183 +1,169 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	<title>Proyecto</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	 <link rel="stylesheet" type="text/css" href="css/lauraf.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyecto</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/diseño.css">
 
-</head>
+ </head>
 <body>
-<div class="container " >
-	<header>
-		
-		<div class="container-fluid formulario" style="background-color: rgba(255, 255, 255, 0.3)" >
-		<div class="col-md-4"><img  src="css/escudo.png" width="200" height="200" class="imgcenter" ></div>
-			<div class="col-md-8" id="pos">
-				<strong><h1 class="titulo1" align="center">Institución Educativa General Santander</h1></strong>
-				<h5 class="titulo p" align="center">Listado de Estudiantes</h5>
+ <div class="row  container-fluid"> 
+ <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
+ <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 ">
+          <div class="container-fluid  ">
+  
+                <div class="row cont ">
+                     <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 " ></div>
+    
+                   <form action="" class="col-xs-10 col-sm-10 col-md-10 lg-10 formulario container ubicar" style="background-color: rgba(255, 255, 255, 0.3)">
+                     <header class="row visible-lg  ">
+   
+      <div class="container formulario"  >
+      <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter" class="img-responsive" ></div>
+      <div class="col-lg-8 container  ">
+      <center>
+      <h1 class="">Institución Educativa General Santander</h1>
+        <h5 class=" p" align="center"  >Listado de Estudiantes</h5></center>
+  </div>
 
-			</div>
-		</header>
+   </header>
+   <header class="row visible-md ">
+   
+            <div class="container formulario " >
+      <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
+      <div class="col-md-8 container  ">
+      <center>
+      <h2 class="">Institución Educativa General Santander</h2>
+      <h5 class=" p" align="center"  >Listado de Estudiantes</h5></center>
+
 </div>
-	
-	<div class="container for" >
-<div class="col-md-3"></div>
-	  <form class="col-md-6">
-      <table class"table-responsive">
-         <tr>
-          <td class="col2"></td>
-        <td>
-  <div class="input-group ">
+   </header>
+      <header class="row visible-sm  ">
+      <div class="container  formulario"  >
+      <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
+      <div class="col-sm-9 container  ">
+      <center>
+      <h3 class="">Institución Educativa General Santander</h3>
+      <h5 align="center"  >Listado de Estudiantes</h5></center>
+
+</div>
+   </header>
+      <header class="row visible-xs ">
+   
+            <div class="container formulario " >
+      <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
+      <div class="col-xs-10 container ">
+      <center>
+      <h5 class="">Institución Educativa General Santander</h5>
+      <h5   >Listado de Estudiantes</h5></center>
+</div>
+</header>
+
+ <body>
+<div class="container-fluid">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+      <div class="input-group bus">
          <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
          <input type="text" class="form-control" placeholder="Grado" required>
-
-         </div>
-        </td>
-        <td> <div class="input-group ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-         <input type="text" class="form-control" placeholder="Grupo" required>
          
-         </div></td>
-        <td>
-<center><button type="submit" class="btn btn-primary form-control consultar">Consultar</button></center>
-        </td>
+           <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+         <input type="text" class="form-control" placeholder="Grupo" required>
+           <span class="input-group-addon"><button id="bot">Consultar</button></span>
+         </div>
+         </div>
+    <div class="col-md-1"></div>
+         </div>
+<div class="container-fluid table-responsive ">
+<div class="col-md-1"></div>
+<div class="col-md-10">
+<table class="table ">
+  <tr class="active">
+    <th>#</th>
+    <th>identificacion</th>
+    <th>Nombres</th>
+    <th>Apellidos</th>
+    <th>Sexo</th>
+    <th>Edad</th>
+    <th>Acudiente</th>
+    <th>Telefono</th>
+    <th>Grado</th>
+     <th>Grupo</th>
 
-        </tr>
-      </table>
-	<center>
-<div class="table-responsive">
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+      <td></td>
+      <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+      <td></td>
 
-                <div class="row">
+  </tr>
+  <tr>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
+     <td></td>
 
-                   <table id="ubic" class=" table  col-xs-6  col-sm-8  col-md-8 col-lg-8">
-                  <tr class= "active">
-                    <th class= "col ">#</th>
-                    <th class="col ">identificacion</th>
-                    <th class="col ">Nombres</th>
-                    <th class="col ">Apellidos</th>
-                    <th class="col ">Sexo</th>
-                    <th class="col ">Edad</th>
-                    <th class="col ">Acudiente</th>
-                    <th class="col ">Telefono</th>
-                    <th class="col ">Grado</th>
-                    <th class="col ">Grupo</th>
+  </tr>
 
-                  </tr>
-                  <tr>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                  </tr>
-                  <tr>
-                   <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                  </tr>
-                  <tr>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                  </tr>
-                  <tr>
-                   <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                  </tr>
-                  <tr>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                  </tr>
-                  <tr>
-                   <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                  </tr>
-                  <tr>
-                   <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                    <td class="col "></td>
-                  </tr>
-                  
-
-
-              </table>
-            </div>
+</table>
 </div>
-</center>
-
-
-
-</form>
-
-<div class="col-md-3"></div>
-
-
+<div class="col-md-1"></div>
 </div>
-	
-	
+         
 
+</body>
+<div class="container tama"><p><br></p></div>
+        
+                   </form>
+                   <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
 
+               </div>
+
+           </div>
+
+   </div>
+   <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
+   <div class="container-fluid">
+      
+  
+        
 </div>
-
-
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.min.js"></script>
+</div>
 <footer  class="footer">
 
 <h5>© Laura Conde Medina & Rafael Martinez Nisperuza  </h5>
 
 </footer>
+
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.min.js"></script>
 </body>
 </html>

@@ -134,7 +134,14 @@
    </tr>
 </table>
 <div class="container tama"><p><br></p></div>
+        <div class="container-fluid">
+      <button type="submit" class="btn btn-primary form-control  atrass p" style="color: #000000"onclick="history.back()"> Atras</button>
+        <button type="submit" class="btn btn-primary form-control  consu p" style="color: #000000"> Consulta</button>
+        <button type="submit" class="btn btn-primary form-control  mod p" style="color: #000000"> Modificar</button>
+        <button type="submit" class="btn btn-primary form-control  eli p" style="color: #000000"> Eliminar</button>
+
         
+</div>
 	                 </form>
 	                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
 
@@ -144,14 +151,7 @@
 
    </div>
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
-   <div class="container-fluid">
-      <button type="submit" class="btn btn-primary form-control  atrass p" style="color: #000000"onclick="history.back()"> Atras</button>
-        <button type="submit" class="btn btn-primary form-control  consu p" style="color: #000000"> Consulta</button>
-        <button type="submit" class="btn btn-primary form-control  mod p" style="color: #000000"> Modificar</button>
-        <button type="submit" class="btn btn-primary form-control  eli p" style="color: #000000"> Eliminar</button>
-
-        
-</div>
+   
 </div>
 <footer  class="footer">
 

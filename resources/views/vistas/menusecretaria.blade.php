@@ -21,12 +21,11 @@
                   
 	             	<div  class="formulario1" style="background-color: rgba(255, 255, 255, 0.3)">
 	             		<img  src="css/escudo.png" class="imgcentercen img-responsive">
-	             		<div class="container l ">
-	             		
-      						<div class="col-md-3"><center><a href="registroalumnos.html"><img src="Iconos/gestionarestudiante.svg" class="img-rounded " wigth="100" height="100"></a><p><br><strong>Gestionar Estudiante<strong></p></center></div>
-     					    <div class="col-md-3 "><center><a href="#"><img src="Iconos/consultarestudiante.svg" class="img-rounded"  wigth="100" height="100"></a><p><br><strong>Consultar Estudiante<strong></p></center></div>
-     					    <div class="col-md-3"><center><a href="#"><img src="Iconos/verasignatura.svg" class="img-rounded"  wigth="100" height="100"></a><p><br><strong>Ver Asignatura del Estudiante<strong></p></center></div>
-                  <div class="col-md-3"><center><a href="#"><img src="Iconos/notasestudiante.svg" class="img-rounded " wigth="100" height="100"></a><p><br><strong>Notas del Estudiante<strong></p></center></div>
+	             		<div class="container l ">    
+       <div class="col-md-3 "><center><a href="estudiante"><img src="Iconos/gestionarestudiante.svg" class="img-rounded" ></a><p><br><strong>Gestionar Estudiante<strong></p></center></div>
+       <div class="col-md-3 "><center><a href=""><img src="Iconos/consultarestudiante.svg" class="img-rounded"></a><p><br><strong>Consultar Estudiante<strong></p></center></div>
+       <div class="col-md-3 "><center><a href=""><img src="Iconos/verasignatura.svg" class="img-rounded"></a><p><br><strong>Ver Asignatura del Estudiante<strong></p></center></div>
+       <div class="col-md-3 "><center><a href=""><img src="Iconos/notasestudiante.svg" class="img-rounded"></a><p><br><strong>Notas del Estudiante<strong></p></center></div>
                   <div class="container u">
                   </div>
 
