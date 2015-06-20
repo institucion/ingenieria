@@ -6,7 +6,7 @@
   <title>Proyecto</title>
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="css/diseño.css">
-<style type="text/css"></style>
+
  </head>
 <body>
  <div class="row  container-fluid"> 
@@ -21,11 +21,11 @@
                      <header class="row visible-lg  ">
    
       <div class="container formulario"  >
-      <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
+      <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter" class="img-responsive" ></div>
       <div class="col-lg-8 container  ">
       <center>
       <h1 class="">Institución Educativa General Santander</h1>
-        <h5 class=" p" align="center"  >Modificar Estudiantes</h5></center>
+        <h5 class=" p" align="center"  >Registrar Asignatura</h5></center>
   </div>
 
    </header>
@@ -36,7 +36,7 @@
       <div class="col-md-8 container  ">
       <center>
       <h2 class="">Institución Educativa General Santander</h2>
-      <h5 class=" p" align="center"  >Modificar Estudiantes</h5></center>
+      <h5 class=" p" align="center"  >Registrar Asignatura</h5></center>
 
 </div>
    </header>
@@ -46,7 +46,7 @@
       <div class="col-sm-9 container  ">
       <center>
       <h3 class="">Institución Educativa General Santander</h3>
-      <h5 align="center"  >Modificar Estudiantes</h5></center>
+      <h5 align="center"  >Registrar Asignatura</h5></center>
 
 </div>
    </header>
@@ -57,7 +57,7 @@
       <div class="col-xs-10 container ">
       <center>
       <h5 class="">Institución Educativa General Santander</h5>
-      <h5   >Modificar Estudiantes</h5></center>
+      <h5   >Registrar Asignatura</h5></center>
 </div>
 </header>
 
@@ -66,16 +66,18 @@
     <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-tasks"></span></span>
-         <input type="text" class="form-control" placeholder="Identificacion" required>
+         <input type="text" class="form-control" placeholder="Codigo" required>
          </div>
     </td>
     <td>
          <div class="input-group in">
             <span class="input-group-addon"><span class="glyphicon glyphicon-adjust" ></span></span>
             <select class="form-control" >
-            <option> Sexo</option>
-            <option> Masculino</option>
-            <option> Femenino</option>
+            <option> Unidades</option>
+            <option> 1</option>
+            <option> 2</option>
+            <option> 3</option>
+            <option> 4</option>
         </select>
          </div> 
     </td>
@@ -116,63 +118,45 @@
    <tr>
     <td>
          <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-         <input type="text" class="form-control" placeholder="Apellidos" required>
+         <span class="input-group-addon"><span class="glyphicon glyphicon-star-empty"></span></span>
+         <input type="text" class="form-control" placeholder="Logros" required>
          </div>
     </td>
     <td>
          <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-         <input type="text" class="form-control" placeholder="Acudiente" required>
+         <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+         <input type="text" class="form-control" placeholder="Intensidad" required>
          </div>
     </td>
          
         
 
-   </tr>
-  <tr>
-    <td>
-         <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
-         <input type="text" class="form-control" placeholder="Telefono" required>
-         </div>
-    </td>
-    <td>
-         <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
-                        <input type="text" class="form-control "  placeholder="Fec_Nac" required > 
-                          </div>  
-                      </td>
-
-         </div>
-    </td>
-         
-        
-
-   </tr>
-            <tr>
-                        <td>
-         <div class="input-group in">
-            <span class="input-group-addon"><span class="glyphicon glyphicon-adjust" ></span></span>
-            <select class="form-control" >
-            <option> Estado</option>
-            <option> Activo</option>
-            <option> Retirado</option>
-        </select>
-         </div> 
-    </td>
-
-            
-            <td>
-              <div class="input-group in ">
-                  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                  <input type="text" class="form-control" placeholder="Grupo"  required >
-                  </div>
-            </td>
-          </tr>
-
+   </tr>   
 </table>
+<div class="container tamano">
+
+<center>
+    <table id="ubi" class="col-xs-6  col-sm-8  ">
+      <tr>
+
+            <td>
+                   <div class="input-group in ">
+                           <span class="input-group-addon"><span class="glyphicon glyphicon-adjust"></span></span>
+                           <input type="text" class="form-control" placeholder="Estado" required>
+                           </div>
+                        </td>
+        
+         </tr> 
+         </table>   
+       </center>
+</div>
+
+
 <div class="container tama"><p><br></p></div>
+<div class="container tama"><p><br></p></div>
+        
+
+
 
 
 
@@ -193,10 +177,10 @@
    </div>
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
-        <button type="submit" class="btn btn-primary form-control  atrass p" style="color: #000000" onclick="history.back()"> Atras</button>
-        <button type="submit" class="btn btn-primary form-control  consu p" style="color: #000000"> Consulta</button>
-        <button type="submit" class="btn btn-primary form-control  mod p" style="color: #000000"> Modificar</button>
-        <button type="submit" class="btn btn-primary form-control  eli p" style="color: #000000"> Eliminar</button>
+      <button type="submit" class="btn btn-primary form-control  atrasc p" style="color: #000000"> Atras</button>
+        <button type="submit" class="btn btn-primary form-control  consuc p" style="color: #000000"> Consultar</button>
+
+        
 </div>
 </div>
 <footer  class="footer">

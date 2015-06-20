@@ -11,10 +11,12 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+//Route::get('/', 'WelcomeController@index');
 
-Route::get('home', 'HomeController@index');
-Route::resource('administrador', 'administradorcontrol');
+//Route::get('home', 'HomeController@index');
+Route::resource('/', 'administradorcontrol');
+
+Route::resource('administrador_est', 'administradorcontrol');
 Route::resource('estudiante', 'estudiantecontrol');
 Route::resource('modificaralumnos', 'modificaralumnoscontrol');
 Route::resource('secretariap', 'menusecretariacontrol');
@@ -23,7 +25,7 @@ Route::resource('registrarprofesor', 'registroprofesorcontrol');
 Route::resource('modificarprofesor', 'modificarprofesorcontrol');
 Route::resource('consultarprofesor', 'consultarprofesorcontrol');
 Route::resource('consultaralumnos', 'consultaralumnoscontrol');
-Route::resource('secretaria', 'menusecretariaecontrol');
+Route::resource('secretaria_est', 'menusecretariaecontrol');
 Route::resource('login', 'logincontrol');
 Route::resource('registrodesecretaria', 'registrosecretariacontrol');
 Route::resource('menuprofesor', 'menuprofesorcontrol');
@@ -35,7 +37,15 @@ Route::resource('exprofesores', 'exprofesorescontrol');
 Route::resource('asignaturasasignadas', 'asignaturasasignadascontrol');
 Route::resource('asignaturasquenoseimparten', 'asignaturasquenoseimpartencontrol');
 Route::resource('listadodeestudiantes', 'listadodeestudiantescontrol');
-
+Route::resource('ver_asignaturas_estudiante', 'control_ver_asignaturas');
+Route::resource('mod_nota', 'control_mod_nota');
+Route::resource('matricular_asignatura_est', 'contorl_matricular_asignaturas_est');
+Route::resource('registar_asignatura', 'control_registar_asig');
+Route::resource('menu_asignatura', 'control_menu_asignatura');
+Route::resource('actualizar_asignatura', 'control_actualizar_asignatura');
+Route::resource('asignar_asignatura', 'control_asignar_asignatura');
+Route::resource('consultar_asignatura', 'control_consultar_asignatura');
+Route::resource('prueba', 'control_prueba');
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

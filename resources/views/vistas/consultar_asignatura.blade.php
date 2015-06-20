@@ -1,31 +1,31 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Proyecto</title>
-	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="css/diseño.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyecto</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/diseño.css">
 
  </head>
 <body>
- <div class="row  container-fluid">	
+ <div class="row  container-fluid"> 
  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 ">
- 	        <div class="container-fluid  ">
-	
+          <div class="container-fluid  ">
+  
                 <div class="row cont ">
                      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 " ></div>
-	  
-	                 <form action="" class="col-xs-10 col-sm-10 col-md-10 lg-10 formulario container ubicar" style="background-color: rgba(255, 255, 255, 0.3)">
-	                   <header class="row visible-lg  ">
+    
+                   <form action="" class="col-xs-10 col-sm-10 col-md-10 lg-10 formulario container ubicar" style="background-color: rgba(255, 255, 255, 0.3)">
+                     <header class="row visible-lg  ">
    
       <div class="container formulario"  >
       <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter" class="img-responsive" ></div>
       <div class="col-lg-8 container  ">
       <center>
       <h1 class="">Institución Educativa General Santander</h1>
-        <h5 class=" p" align="center"  >Registrar Estudiantes</h5></center>
+        <h5 class=" p" align="center"  >Consultar Asignatura</h5></center>
   </div>
 
    </header>
@@ -36,7 +36,7 @@
       <div class="col-md-8 container  ">
       <center>
       <h2 class="">Institución Educativa General Santander</h2>
-      <h5 class=" p" align="center"  >Registrar Estudiantes</h5></center>
+      <h5 class=" p" align="center"  >Consultar Asignatura</h5></center>
 
 </div>
    </header>
@@ -46,7 +46,7 @@
       <div class="col-sm-9 container  ">
       <center>
       <h3 class="">Institución Educativa General Santander</h3>
-      <h5 align="center"  >Registrar Estudiantes</h5></center>
+      <h5 align="center"  >Consultar Asignatura</h5></center>
 
 </div>
    </header>
@@ -57,102 +57,82 @@
       <div class="col-xs-10 container ">
       <center>
       <h5 class="">Institución Educativa General Santander</h5>
-      <h5   >Registrar Estudiantes</h5></center>
+      <h5   >Consultar Asignatura</h5></center>
 </div>
 </header>
+<div class="container tama"><p><br></p></div>
+<div class="container tama"><p><br></p></div>
+        
 
  <table  id="ubi" class="col-xs-6  col-sm-8  ">
    <tr>
-   	<td>
+    <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-tasks"></span></span>
-         <input type="text" class="form-control" placeholder="Identificacion" required>
+         <input type="text" class="form-control" placeholder="Codigo" required>
          </div>
-   	</td>
-   	<td>
+    </td>
+    <td>
          <div class="input-group in">
             <span class="input-group-addon"><span class="glyphicon glyphicon-adjust" ></span></span>
-            <select class="form-control" >
-            <option> Sexo</option>
-            <option> Masculino</option>
-            <option> Femenino</option>
-		    </select>
+            <input type="text" class="form-control" placeholder="Unidades" required>
+         </div>
          </div> 
-   	</td>
+    </td>
          
         
 
    </tr>
    <tr>
-   	<td>
+    <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
          <input type="text" class="form-control" placeholder="Nombre" required>
          </div>
-   	</td>
-    
-            <td>
-                   <div class="input-group in ">
-                           <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                           <input type="text" class="form-control" placeholder="Correo" required>
-                           </div>
-                        </td>
+    </td>
+    <td>
+         <div class="input-group in ">
+                           <span class="input-group-addon"><span class="glyphicon glyphicon-education" ></span></span>
+                        <input type="text" class="form-control" placeholder="Grado" required>
+         </div>
+                     
+    </td>
          
         
 
    </tr>
    <tr>
-   	<td>
+    <td>
          <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-         <input type="text" class="form-control" placeholder="Apellidos" required>
+         <span class="input-group-addon"><span class="glyphicon glyphicon-star-empty"></span></span>
+         <input type="text" class="form-control" placeholder="Logros" required>
          </div>
-   	</td>
-   	<td>
+    </td>
+    <td>
          <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-         <input type="text" class="form-control" placeholder="Acudiente" required>
+         <span class="input-group-addon"><span class="glyphicon glyphicon-time"></span></span>
+         <input type="text" class="form-control" placeholder="Intensidad" required>
          </div>
-   	</td>
+    </td>
          
         
 
-   </tr>
-  <tr>
-   	<td>
-         <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
-         <input type="text" class="form-control" placeholder="Telefono" required>
-         </div>
-   	</td>
-   	<td>
-         <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
- 	                	    <input type="text" class="form-control "  placeholder="Fec_Nac" required > 
- 	                        </div>	
-	               	    </td>
-
-         </div>
-   	</td>
-         
-        
-
-   </tr>
-   				
-						
-					
-
+   </tr>   
 </table>
+
+
+
 <div class="container tama"><p><br></p></div>
-        
+<div class="container tama"><p><br></p></div>
+<div class="container tama"><p><br></p></div>
 
 
 
 
 
 
-	                 </form>
-	                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
+                   </form>
+                   <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
 
                </div>
 
@@ -168,7 +148,7 @@
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
       <button type="button" class="btn btn-primary form-control  atras p" style="color: #000000" onclick="history.back()"> Atras</button>
-          <button type="submit" class="btn btn-primary form-control  registar p" style="color: #000000"> Registrar</button>
+          <button type="submit" class="btn btn-primary form-control  registar p" style="color: #000000"> Consultar</button>
 
         
 </div>

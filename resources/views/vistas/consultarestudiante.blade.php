@@ -153,8 +153,8 @@
             <tr>
             <td>
                    <div class="input-group in ">
-                           <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                           <input type="text" class="form-control" placeholder="Correo" required>
+                           <span class="input-group-addon"><span class="glyphicon glyphicon-adjust"></span></span>
+                           <input type="text" class="form-control" placeholder="Estado" required>
                            </div>
                         </td>
             
@@ -188,7 +188,7 @@
    </div>
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
-        <button type="submit" class="btn btn-primary form-control  atrasc p" style="color: #000000"> Atras</button>
+        <button type="submit" class="btn btn-primary form-control  atrasc p" style="color: #000000" onclick="history.back()"> Atras</button>
         <button type="submit" class="btn btn-primary form-control  consuc p" style="color: #000000"> Consultar</button>
       
 </div>

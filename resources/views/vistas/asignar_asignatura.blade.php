@@ -64,15 +64,50 @@
 
  <body>
 <div class="container-fluid">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
+ <div class="col-md-4">
       <div class="input-group ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
-         <input type="text" class="form-control" placeholder="Identificacion" required>
-           <span class="input-group-addon"><button id="bot">Buscar</button></span>
+         <span class="input-group-addon"><span class="glyphicon glyphicon-file" ></span></span>
+         <select class="form-control" >
+            <option> Asignatura</option>
+            <option> Matematicas</option>
+            <option> Naturales</option>
+            <option> Español</option>
+            <option> Sociales</option>
+        </select>
+        </div>
          </div>
+  <div class="col-md-4">
+      <div class="input-group ">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-user" ></span></span>
+         <select class="form-control" >
+         <option> profesor</option>
+         <option> Ana Gonzales</option>
+         <option> Roberto hernandez</option>
+         <option>Andres ruiz </option>
+        </select>
+        </div>
          </div>
-    <div class="col-md-1"></div>
+        <div class="col-md-4">
+      <div class="input-group ">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-education" ></span></span>
+         <select class="form-control" >
+                <option> Grado</option>
+                               <option> 1°</option>
+                               <option> 2°</option>
+                               <option> 3°</option>
+                               <option> 4°</option>
+                               <option> 5°</option>
+                               <option> 6°</option>
+                               <option> 7°</option>
+                               <option> 8°</option>
+                               <option> 9°</option>
+                               <option> 10°</option>
+                               <option> 11°</option>
+        </select>
+        </div>
+         </div>
+      
+    
  </div>
 
 <div class="container-fluid table-responsive ">
@@ -80,48 +115,40 @@
 <div class="col-md-10">
 <table class="table ">
   <tr class="active">
-    
+   
     <th>Asignatura</th>
-    <th>Nota 1</th>
-    <th>Nota 2</th>
-    <th>Nota 3</th>
-    <th>Nota 4</th>
-    <th>Definitiva</th>
+    <th>Profesor</th>
+    <th>Grado </th>
+    
   </tr>
+
   <tr>
     
     <td>Matematica</td>
-    <td>4</td>
+    <td>Luis Ruiz</td>
     <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
+    
+    
+    </tr>
+  <tr>
+    <td>Sociales</td>
+    <td>Andres Soto</td>
+    <td>6</td>
   </tr>
   <tr>
     <td>Naturales</td>
+    <td>Maria Solis</td>
     <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
-  </tr>
-  <tr>
-    <td>Español</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
+   
+  
   </tr>
   <tr>
     
-    <td>Matematica</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
-  </tr>
+    <td>calculo</td>
+    <td>Rafael Martinez</td>
+     <td>5</td>
+    
+    
  
 </table>
 </div>
@@ -129,7 +156,7 @@
 </div>
   
 </body>
-<div class="container tama"><p><br></p></div>
+
         
                    </form>
                    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
@@ -142,7 +169,8 @@
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
       
-          <button type="button" class="btn btn-primary form-control  atrasco p" style="color: #000000" onclick="history.back()"> Atras</button>
+               <button type="button" class="btn btn-primary form-control  atras p" style="color: #000000" onclick="history.back()"> Atras</button>
+          <button type="submit" class="btn btn-primary form-control  registar p" style="color: #000000"> Asignar</button>
           
 
 

@@ -129,7 +129,10 @@ width:20%;
 
                  }
 
-
+#ubi1{
+        margin-left: 15%;
+        margin-top: -1%;
+          }
 
 
 
@@ -189,7 +192,18 @@ width:20%;
  	   margin-top: 1%;
  	   margin-left: 34%;
      border-color:black;
+  }
+.atrasco{
+  border-radius: 0.5em;
+            width: 15%;
+       background: #58b3e2;
+     margin-top: 1%;
+     margin-left: 44%;
+     border-color:black;
   } 
+
+
+
   .consu{
   border-radius: 0.5em;
             width: 15%;
@@ -317,4 +331,16 @@ margin-top:5%;
 }
 .guardar{
   margin-left: 10%;
+}
+.tamano{
+  width:50%;
+  margin-top: 15%;
+  margin-left: 25%;
+}
+
+.aba{
+ 
+  margin-top: 5%;
+  height: 15%;
+
 }

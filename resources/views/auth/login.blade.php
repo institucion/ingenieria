@@ -1,61 +1,70 @@
-@extends('app')
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Proyecto</title>
+	<link rel="stylesheet" type="text/css" href="{{asset('css/bootstrap.min.css')}}">
+	<link rel="stylesheet" type="text/css" href="{{asset ('css/diseño.css')}}">
+	</head>
+<body>
+	<header >
+	
+			
+		<div class=" container  ">
+		
+		<img  src="{{asset('css/escudo.png')}}" class="imgcenterlg" class="img-responsive">
 
-@section('content')
-<div class="container-fluid">
-	<div class="row">
-		<div class="col-md-8 col-md-offset-2">
-			<div class="panel panel-default">
-				<div class="panel-heading">Login</div>
-				<div class="panel-body">
+</div>
+
+	</header>
+	
+					
+					<div class="container-fluid">
+	
+  <div class="row cont">
+    
+    <div class="col-xs-1 col-sm-4 col-md-4" ></div>
+	  
+	 <form class=" col-xs-10 col-sm-4 col-md-4 formulariolg container" style="background-color: rgba(255, 255, 255, 0.3)" role="form" method="POST" action="{{ url('/auth/login') }}">
 					@if (count($errors) > 0)
-						<div class="alert alert-danger">
-							<strong>Whoops!</strong> There were some problems with your input.<br><br>
-							<ul>
-								@foreach ($errors->all() as $error)
+						<div class="alert alert-danger aba">
+						@foreach ($errors->all() as $error)
 									<li>{{ $error }}</li>
 								@endforeach
-							</ul>
 						</div>
-					@endif
+					@endif	
 
-					<form class="form-horizontal" role="form" method="POST" action="{{ url('/auth/login') }}">
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
+						     <div class="input-group esp">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+         <input type="text" class="form-control" placeholder="Usuario" name="usuario">
+         </div>
+         <div class="input-group esp">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+         <input type="password" class="form-control" placeholder="Contraseña" name="password">
+         </div>
+         <center>
+         	<button type="submit" class="btn btn-primary form-control ingresarlg inlg ">Ingresar</button>
+         </center>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">E-Mail Address</label>
-							<div class="col-md-6">
-								<input type="email" class="form-control" name="email" value="{{ old('email') }}">
-							</div>
-						</div>
+<br>
 
-						<div class="form-group">
-							<label class="col-md-4 control-label">Password</label>
-							<div class="col-md-6">
-								<input type="password" class="form-control" name="password">
-							</div>
-						</div>
-
-						<div class="form-group">
-							<div class="col-md-6 col-md-offset-4">
-								<div class="checkbox">
-									<label>
-										<input type="checkbox" name="remember"> Remember Me
-									</label>
-								</div>
-							</div>
-						</div>
-
-						<div class="form-group">
-							<div class="col-md-6 col-md-offset-4">
-								<button type="submit" class="btn btn-primary">Login</button>
-
-								<a class="btn btn-link" href="{{ url('/password/email') }}">Forgot Your Password?</a>
-							</div>
-						</div>
+						
 					</form>
-				</div>
-			</div>
-		</div>
-	</div>
+
+	 <div class="col-xs-1 col-sm-4 col-md-4"></div>
+
+  </div>
 </div>
-@endsection
+
+					
+			
+	</body>
+	 <footer  class="footer">
+
+<h5>© Laura Conde Medina & Rafael Martinez Nisperuza  </h5>
+
+</footer>
+	</html>	
+

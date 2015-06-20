@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -26,7 +25,7 @@
       <div class="col-lg-8 container  ">
       <center>
       <h1 class="">Institución Educativa General Santander</h1>
-        <h5 class=" p" align="center"  >Notas de Alumno</h5></center>
+        <h5 class=" p" align="center"  >Ver Asignaturas Estudiantes</h5></center>
   </div>
 
    </header>
@@ -37,7 +36,7 @@
       <div class="col-md-8 container  ">
       <center>
       <h2 class="">Institución Educativa General Santander</h2>
-      <h5 class=" p" align="center"  >Notas de Alumno</h5></center>
+      <h5 class=" p" align="center"  >Ver Asignaturas Estudiantes</h5></center>
 
 </div>
    </header>
@@ -47,7 +46,7 @@
       <div class="col-sm-9 container  ">
       <center>
       <h3 class="">Institución Educativa General Santander</h3>
-      <h5 align="center"  >Notas de Alumno</h5></center>
+      <h5 align="center"  >Ver Asignaturas Estudiantes</h5></center>
 
 </div>
    </header>
@@ -58,104 +57,95 @@
       <div class="col-xs-10 container ">
       <center>
       <h5 class="">Institución Educativa General Santander</h5>
-      <h5   >Notas de Alumno</h5></center>
+      <h5   >Ver Asignaturas Estudiantes</h5></center>
 </div>
 </header>
-
- <body>
 <div class="container-fluid">
   <div class="col-md-1"></div>
   <div class="col-md-10">
       <div class="input-group ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
          <input type="text" class="form-control" placeholder="Identificacion" required>
-           <span class="input-group-addon"><button id="bot">Buscar</button></span>
+           <span class="input-group-addon"><button id="bot" style="color: #000000">Buscar</button></span>
          </div>
          </div>
     <div class="col-md-1"></div>
  </div>
-
-<div class="container-fluid table-responsive ">
+<br>
+<div class="container-fluid">
+  <div class="col-md-1"></div>
+  <div class="col-md-10">
+      <div class="container-fluid">
 <div class="col-md-1"></div>
 <div class="col-md-10">
-<table class="table ">
-  <tr class="active">
-    
-    <th>Asignatura</th>
-    <th>Nota 1</th>
-    <th>Nota 2</th>
-    <th>Nota 3</th>
-    <th>Nota 4</th>
-    <th>Definitiva</th>
+  <div  class="table-responsive">
+    <table class="table">
+
+  <tr class=" active">
+    <td>Codigo</td>
+    <td>Asignatura</td>
+    <td>Profesor</td>
   </tr>
   <tr>
-    
+    <td>0001</td>
     <td>Matematica</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
+    <td>Juan vargas</td>
   </tr>
   <tr>
-    <td>Naturales</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
+    <td>0001</td>
+    <td>naturales</td>
+    <td>Maria salcedo</td>
   </tr>
-  <tr>
-    <td>Español</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
-  </tr>
-  <tr>
-    
+   <tr>
+    <td>0001</td>
     <td>Matematica</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
+    <td>Juan vargas</td>
+  </tr>
+  <tr>
+    <td>0001</td>
+    <td>naturales</td>
+    <td>Maria salcedo</td>
+  </tr>
+   <tr>
+    <td>0001</td>
+    <td>Matematica</td>
+    <td>Juan vargas</td>
   </tr>
  
 </table>
 </div>
-<div class="col-md-1"></div>
+         </div>
+    <div class="col-md-1"></div>
+ </div>
+
+<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
 </div>
-  
-</body>
-<div class="container tama"><p><br></p></div>
-        
-                   </form>
-                   <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
+</div>
+</div>
+</div>
+            
 
-               </div>
 
-           </div>
+
+
 
    </div>
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
-      
-          <button type="button" class="btn btn-primary form-control  atrasco p" style="color: #000000" onclick="history.back()"> Atras</button>
+      <button type="button" class="btn btn-primary form-control  atrasco p" style="color: #000000" onclick="history.back()"> Atras</button>
           
-
 
         
 </div>
 </div>
-<footer  class="footer">
 
-<h5>© Laura Conde Medina & Rafael Martinez Nisperuza  </h5>
-
-</footer>
 
 <script src="js/bootstrap.min.js"></script>
 <script src="js/jquery.min.js"></script>
 </body>
+<footer  class="footer">
+
+<h5>© Laura Conde Medina & Rafael Martinez Nisperuza  </h5>
+
+</footer
 </html>

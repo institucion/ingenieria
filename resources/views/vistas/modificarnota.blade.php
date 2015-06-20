@@ -26,7 +26,7 @@
       <div class="col-lg-8 container  ">
       <center>
       <h1 class="">Institución Educativa General Santander</h1>
-        <h5 class=" p" align="center"  >Notas de Alumno</h5></center>
+        <h5 class=" p" align="center"  >Modificar de Notas</h5></center>
   </div>
 
    </header>
@@ -37,7 +37,7 @@
       <div class="col-md-8 container  ">
       <center>
       <h2 class="">Institución Educativa General Santander</h2>
-      <h5 class=" p" align="center"  >Notas de Alumno</h5></center>
+      <h5 class=" p" align="center"  >Modificar de Notas</h5></center>
 
 </div>
    </header>
@@ -47,7 +47,7 @@
       <div class="col-sm-9 container  ">
       <center>
       <h3 class="">Institución Educativa General Santander</h3>
-      <h5 align="center"  >Notas de Alumno</h5></center>
+      <h5 align="center"  >Modificar de Notas</h5></center>
 
 </div>
    </header>
@@ -58,30 +58,33 @@
       <div class="col-xs-10 container ">
       <center>
       <h5 class="">Institución Educativa General Santander</h5>
-      <h5   >Notas de Alumno</h5></center>
+      <h5   >Modificar de Notas</h5></center>
 </div>
 </header>
 
  <body>
 <div class="container-fluid">
-  <div class="col-md-1"></div>
-  <div class="col-md-10">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
       <div class="input-group ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
          <input type="text" class="form-control" placeholder="Identificacion" required>
            <span class="input-group-addon"><button id="bot">Buscar</button></span>
          </div>
          </div>
-    <div class="col-md-1"></div>
+    <div class="col-md-3"></div>
  </div>
+<br>
 
-<div class="container-fluid table-responsive ">
+<div class="container-fluid  table-responsive ">
 <div class="col-md-1"></div>
 <div class="col-md-10">
-<table class="table ">
+<table class="table">
   <tr class="active">
+    <th>#</th>
+ 
     
-    <th>Asignatura</th>
+    <th>Asignaturas</th>
     <th>Nota 1</th>
     <th>Nota 2</th>
     <th>Nota 3</th>
@@ -89,45 +92,52 @@
     <th>Definitiva</th>
   </tr>
   <tr>
-    
-    <td>Matematica</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
+  
+  
+    <td></td>
+    <td></td>
+    <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+      <td><input type="text" class="nota" required></td>
   </tr>
   <tr>
-    <td>Naturales</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
+   
+   
+    <td></td>
+    <td></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+      <td><input type="text" class="nota" required></td>
+
   </tr>
   <tr>
-    <td>Español</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
+    <td></td>
+    <td></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+     <td><input type="text" class="nota" required></td>
+
   </tr>
-  <tr>
-    
-    <td>Matematica</td>
-    <td>4</td>
-    <td>3</td>
-    <td>4</td>
-    <td>3</td>
-    <td>3.5</td>
-  </tr>
- 
+
 </table>
 </div>
 <div class="col-md-1"></div>
 </div>
-  
+  <div class="container-fluid">
+     
+        <button type="button" class="btn btn-primary form-control  atras p" style="color: #000000" onclick="history.back()"> Atras</button>
+          <button type="submit" class="btn btn-primary form-control  registar p" style="color: #000000"> modificar</button>
+
+
+        
+</div>        
+
 </body>
 <div class="container tama"><p><br></p></div>
         
@@ -142,10 +152,7 @@
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
       
-          <button type="button" class="btn btn-primary form-control  atrasco p" style="color: #000000" onclick="history.back()"> Atras</button>
-          
-
-
+  
         
 </div>
 </div>
