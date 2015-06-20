@@ -11,22 +11,7 @@
 </head>
 <body>
 <header>
-  <div class="col-lg-2 " style="height:75px; background:#2D3E50;">
-  <ul class="nav navbar-nav navbar-right">
-          @if (Auth::guest())
-          <li class="dropdown " >
-              
-            </li>
-          @else
-            <li class="dropdown cerr">
-              <a href="#" style="color:grey;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->usuario }} <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu" >
-                <li><a  href="{{ url('/auth/logout') }}">Cerrar Sesión</a></li>
-              </ul>
-            </li>
-          @endif
-        </ul>
-</div
+
 <div class=" container-fluid  "> 
      <div class="row">
   	     <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1  "></div>
@@ -36,6 +21,27 @@
                   
 	             	<div  class="formulario1" style="background-color: rgba(255, 255, 255, 0.3)">
 	             		<img  src="css/escudo.png" class="imgcentercen img-responsive">
+                  <div class="container cerr">
+
+                     <div class="col-lg-2 " style="height:40px; background:#000000;">
+  <ul class="nav navbar-nav navbar-right">
+          @if (Auth::guest())
+          <li class="dropdown " >
+              
+            </li>
+          @else
+            <li class="dropdown ">
+              <a href="#" style="color:grey;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->usuario }} <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu" >
+                <li><a  href="{{ url('/auth/logout') }}">Cerrar Sesión</a></li>
+              </ul>
+            </li>
+          @endif
+        </ul>
+</div>
+
+                  </div>
+                  <div class="contaner"><br><br><br><br><br><br></div>
 	             		<div class="container">
 	             			<div class="col-md-3  "></div>
       						<div class="col-md-2 "><center><a href="estudiante"><img src="Iconos/gestionarestudiante.svg" class="img-rounded " wigth="100" height="100"></a><p><br><strong>Gestionar Estudiante<strong></p></center></div>
@@ -62,7 +68,9 @@
 	            </div>
 	         </center>
          </div>
-      	 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1  "></div>
+      	 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1  ">
+
+         </div>
      </div>
 </div>
 	                   	       

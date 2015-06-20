@@ -63,7 +63,6 @@
 <div class="container tama"><p><br></p></div>
 <div class="container tama"><p><br></p></div>
 
-
  <table  id="ubi" class="col-xs-6  col-sm-8  ">
    <tr>
     <td>
@@ -139,7 +138,6 @@
 
 
 
-<div class="container tama"><p><br></p></div>
 <div class="container tama"><p><br></p></div>
 <div class="container tama"><p><br></p></div>
         

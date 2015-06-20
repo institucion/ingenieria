@@ -23,7 +23,7 @@
    
       <div class="container formulario"  >
       <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter" class="img-responsive" ></div>
-      <div class="col-lg-8 container  ">
+      <div class="col-lg-8 container cerca   ">
       <center>
       <h1 class="">Institución Educativa General Santander</h1>
         <h5 class=" p" align="center"  >Matricular Asignaturas Al Alumno</h5></center>
@@ -34,7 +34,7 @@
    
             <div class="container formulario " >
       <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
-      <div class="col-md-8 container  ">
+      <div class="col-md-8 container cerca ">
       <center>
       <h2 class="">Institución Educativa General Santander</h2>
       <h5 class=" p" align="center"  >Matricular Asignaturas Al Alumno</h5></center>
@@ -44,7 +44,7 @@
       <header class="row visible-sm  ">
       <div class="container  formulario"  >
       <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
-      <div class="col-sm-9 container  ">
+      <div class="col-sm-9 container cerca ">
       <center>
       <h3 class="">Institución Educativa General Santander</h3>
       <h5 align="center"  >Matricular Asignaturas Al Alumno</h5></center>
@@ -55,37 +55,100 @@
    
             <div class="container formulario " >
       <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
-      <div class="col-xs-10 container ">
+      <div class="col-xs-10 container cerca ">
       <center>
       <h5 class="">Institución Educativa General Santander</h5>
       <h5   >Matricular Asignaturas Al Alumno</h5></center>
 </div>
 </header>
+  <div class="container colo  formulario">
+
+                     <div class="col-lg-2  posc" style="height:40px; background:#000000;">
+  <ul class="nav navbar-nav navbar-right">
+          @if (Auth::guest())
+          <li class="dropdown " >
+              
+            </li>
+          @else
+            <li class="dropdown ">
+              <a href="#" style="color:grey;" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->usuario }} <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu" >
+                <li><a  href="{{ url('/auth/logout') }}">Cerrar Sesión</a></li>
+              </ul>
+            </li>
+          @endif
+        </ul>
+</div>
+</div>
 
  <body>
-<div class="container-fluid">
-  <div class="col-md-3"></div>
-  <div class="col-md-6">
+<div class="container-fluid ubi3">
+  <div class="col-md-1"></div>
+  <div class="  col-md-10">
+
+<div class="container-fluid espacio">
+
+
+ <div class="col-md-4">
       <div class="input-group ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
          <input type="text" class="form-control" placeholder="Identificacion" required>
            <span class="input-group-addon"><button id="bot">Buscar</button></span>
          </div>
          </div>
-    <div class="col-md-3"></div>
- </div>
- <br>
-<div class="container-fluid">
-  <div class="col-md-5"></div>
-  <div class="col-md-2">
+         
+          <div class="col-md-4">
+          <div class="input-group ">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+         <input type="text" class="form-control" placeholder="Nombre" required>
+         
+        </div>
+         </div>
+
+
+     <div class="col-md-4">
       <div class="input-group ">
-               <span class="input-group-addon"><span class="glyphicon glyphicon-education"></span></span>
-         <input type="text" class="form-control" placeholder="grado" required>
-      
+         <span class="input-group-addon"><span class="glyphicon glyphicon-education" ></span></span>
+         <select class="form-control" >
+                <option> Grado</option>
+                               <option> 1°</option>
+                               <option> 2°</option>
+                               <option> 3°</option>
+                               <option> 4°</option>
+                               <option> 5°</option>
+                               <option> 6°</option>
+                               <option> 7°</option>
+                               <option> 8°</option>
+                               <option> 9°</option>
+                               <option> 10°</option>
+                               <option> 11°</option>
+        </select>
+        </div>
          </div>
-         </div>
-    <div class="col-md-5"></div>
- </div>   
+
+     
+    
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+   </div>
+<div class="col-md-1"></div>
+
+
+</div>   
 <div class="container-fluid  table-responsive ">
 <div class="col-md-1"></div>
 <div class="col-md-10">
@@ -182,7 +245,7 @@
 
 </footer>
 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="{{asset('/js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/js/bootstrap.min.js')}}"></script>
 </body>
 </html>
