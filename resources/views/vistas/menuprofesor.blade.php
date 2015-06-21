@@ -31,7 +31,7 @@
                        <div class="col-md-2 ">
                         <center><a href="modificarprofesor"><img src="css/modificarprofesor.svg" class="img-rounded"></a><p><br><strong>Modificar Profesor<strong></p></center></div>
                        <div class="col-md-2 ">
-                        <center><a href="#"><img src="css/asignaturas.svg" class="img-rounded"></a><p><br><strong>Consultar asignaturas que se imparten<strong></p></center></div>
+                        <center><a href="asignaturasasignadas"><img src="css/asignaturas.svg" class="img-rounded"></a><p><br><strong>Consultar asignaturas que se imparten<strong></p></center></div>
 
                        <div class="col-md-2 "></div>
                   <div class="container u">

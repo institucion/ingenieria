@@ -93,7 +93,7 @@ $this->user->save();
  }
 
     if($this->auth->user()->tipo=="profesor"){
- return redirect('/menuprofesor');
+ return redirect('/menu-profesor');
  }
 
 
