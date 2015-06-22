@@ -84,7 +84,7 @@
 </div>
 </div>
 <center>
- <table  id="ubi" class="col-xs-6  col-sm-8 ">
+ <table  id="ubis" class="col-xs-6  col-sm-8 ">
                 	<tr>
                         <td>
 				 	       <div class="input-group inp col-xs-2 col-sm-6 col-md-7  ">

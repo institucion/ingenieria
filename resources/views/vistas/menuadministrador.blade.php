@@ -58,6 +58,12 @@
       						<div class="col-md-2 "><center><a href="matricular_asignatura_est"><img src="Iconos/inscribirasignatura.svg" class="img-rounded"  wigth="100" height="100"></a><p><br><strong>Matricular Asignatura al Estudiante </p></center>
       						</div>
       						<div class="col-md-2 "></div>
+                    <div class="container-fluid">
+      <button type="button" class="btn btn-primary form-control  atrasm p" style="color: #000000" onclick="history.back()"> Atras</button>
+        
+
+        
+</div>
 
       					</div>
       				</div>

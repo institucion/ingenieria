@@ -25,7 +25,7 @@
                   
                   <div class="col-md-2 "></div>
                     <div class="col-md-2 ">
-                    <center><a href="registrodenotas"><img src="css/registrodeprofesores.svg" class="img-rounded" ></a><p><br><strong>Registrar Notas<strong></p></center></div>
+                    <center><a href="registrodenotas"><img src="css/gestionarestudiante.svg" class="img-rounded" ></a><p><br><strong>Registrar Notas<strong></p></center></div>
                         <div class="col-md-2 ">
                         <center><a href="listadodeestudiantes"><img src="css/listadodealumnos.svg" class="img-rounded"></a><p><br><strong>Listado de Alumnos<strong></p></center></div>
                        <div class="col-md-2 ">

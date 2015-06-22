@@ -122,6 +122,10 @@ width:20%;
         margin-left: 15%;
         margin-top: 15%;
    	      }
+           #ubis{
+        margin-left: 24%;
+        margin-top: 15%;
+          }
 #ubic{
         margin-left: 10%;
         margin-top: 10px;
@@ -144,6 +148,10 @@ width:20%;
  .ubi4{
        
         margin-top: 15%;
+          }
+          .ubi5{
+       
+        margin-top: 20%;
           }
 
 .formulariofor{
@@ -203,6 +211,14 @@ width:20%;
  	   margin-left: 34%;
      border-color:black;
   }
+  .atrasm{
+  border-radius: 0.5em;
+            width: 15%;
+       background: #58b3e2;
+     margin-top: -15%;
+     margin-right: 80%;
+     border-color:black;
+  }
 .atrasco{
   border-radius: 0.5em;
             width: 15%;
@@ -235,6 +251,14 @@ width:20%;
        background: #58b3e2;
      margin-top: 1%;
      margin-left: 18%;
+     border-color:black;
+  }
+  .atrass1{
+  border-radius: 0.5em;
+            width: 15%;
+       background: #58b3e2;
+     margin-top: -3%;
+     margin-left: 5%;
      border-color:black;
   }
    .consuc{
@@ -395,4 +419,18 @@ margin-top: -24%;
 }
 .esatr{
   margin-top: 10%;
+}
+.colo1{
+margin-top: -21%;
+}
+.espacio{
+width: 0%;
+}
+.colo2{
+margin-top: -21%;
+margin-left: 3%;
+}
+.colo2{
+margin-top: -21%;
+margin-left: 30%;
 }

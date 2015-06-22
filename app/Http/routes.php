@@ -46,6 +46,9 @@ Route::resource('actualizar_asignatura', 'control_actualizar_asignatura');
 Route::resource('asignar_asignatura', 'control_asignar_asignatura');
 Route::resource('consultar_asignatura', 'control_consultar_asignatura');
 Route::resource('prueba', 'control_prueba');
+Route::resource('menu_principal_sec', 'control_menu_principal');
+ 
+Route::resource('menu_principal_adm', 'control_menu_principal_adm');
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',

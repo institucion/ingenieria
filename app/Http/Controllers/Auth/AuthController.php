@@ -85,11 +85,11 @@ $this->user->save();
         {
  //$this->auth->user()->tipo=="ccccc"
  if($this->auth->user()->tipo=="admin"){
- return redirect('/administrador_est');
+ return redirect('/menu_principal_adm');
  }
  
     if($this->auth->user()->tipo=="secretaria"){
- return redirect('/secretaria_est');
+ return redirect('/menu_principal_sec');
  }
 
     if($this->auth->user()->tipo=="profesor"){
