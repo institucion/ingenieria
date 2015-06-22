@@ -84,9 +84,10 @@
 
 
 
-
+{!! Form::open (['route' => 'estudiante.store']) !!}
 
  <table  id="ubi" class="col-xs-6  col-sm-8   ">
+
    <tr>
    	<td>
          <div class="input-group in ">
@@ -195,8 +196,8 @@
       <button type="button" class="btn btn-primary form-control  atras p" style="color: #000000" onclick="history.back()"> Atras</button>
           <button type="submit" class="btn btn-primary form-control  registar p" style="color: #000000"> Registrar</button>
 
-        
-</div>
+  {!! form::close()!!}      
+
 </div>
 </div>
 <footer  class="footer">
