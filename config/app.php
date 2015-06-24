@@ -135,7 +135,8 @@ return [
 		'Illuminate\Translation\TranslationServiceProvider',
 		'Illuminate\Validation\ValidationServiceProvider',
 		'Illuminate\View\ViewServiceProvider',
-		'Iluminar \ Html \ HtmlServiceProvider',
+		'Illuminate\Html\HtmlServiceProvider',
+		
 		
 		
 
@@ -198,7 +199,10 @@ return [
 		'View'      => 'Illuminate\Support\Facades\View',
 		'html'  =>  'Iluminar \ Html \ HtmlFacade' , 
     'Forma'  =>  'Iluminar \ Html \ FormFacade',
-		 
+'Html'      => 'Illuminate\Html\HtmlFacade',
+'Form'      => 'Illuminate\Html\FormFacade',
+
+    
 
 	],
 

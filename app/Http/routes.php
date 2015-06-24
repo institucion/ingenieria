@@ -49,6 +49,7 @@ Route::resource('prueba', 'control_prueba');
 Route::resource('menu_principal_sec', 'control_menu_principal');
  
 Route::resource('menu_principal_adm', 'control_menu_principal_adm');
+Route::resource('post', 'PostController');
 Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
