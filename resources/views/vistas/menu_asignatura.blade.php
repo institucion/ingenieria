@@ -26,9 +26,12 @@
        <div class="col-md-3 "><center><a href="actualizar_asignatura"><img src="Iconos/actualizar_asignatura.svg" class="img-rounded"></a><p><br><strong>Modificar Asignatura<strong></p></center></div>
        <div class="col-md-3 "><center><a href="asignar_asignatura"><img src="Iconos/asignar_asignatura.svg" class="img-rounded"></a><p><br><strong>Asignar Cargas Academicas<strong></p></center></div>
        <div class="col-md-3 "><center><a href="consultar_asignatura"><img src="Iconos/consultar_asignatura.svg" class="img-rounded"></a><p><br><strong>Consultar Asignauturas<strong></p></center></div>
-       
-                  <div class="container u">
+                         
+           </div>
+<div class="container " ><br><br><br><br>
                   </div>
+                         
+              </div>
 
                          
               </div>
@@ -41,13 +44,17 @@
 	         </center>
          </div>
       	 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1  "></div>
+           <div class="container-fluid">
+        <button type="submit" class="btn btn-primary form-control  atrasss p" style="color: #000000" onclick="history.back()"> Atras</button>
+        
+</div>
      </div>
 </div>
 	                   	       
 </header> 
 
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery.min.js"></script>
+<script type="text/javascript" src="{{asset('/js/jquery.min.js')}}"></script>
+<script type="text/javascript" src="{{asset('/js/bootstrap.min.js')}}"></script>
 </body>
 <footer  class="footer">
 

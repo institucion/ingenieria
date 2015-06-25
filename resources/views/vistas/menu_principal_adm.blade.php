@@ -53,7 +53,7 @@
                         <div class="col-md-2  ubi5">
                         <center><a href="secretariap"><img src="css/gestionarprofesor.svg" class="img-rounded"></a><p><br><strong> Gestionar Profesor <strong></p></center></div>
                        <div class="col-md-2 ubi5">
-                        <center><a href="consultar_asignatura"><img src="css/gestionarasignatura.svg" class="img-rounded"></a><p><br><strong>Gestionar Asignatura<strong></p></center></div>
+                        <center><a href="menu_asignatura"><img src="css/gestionarasignatura.svg" class="img-rounded"></a><p><br><strong>Gestionar Asignatura<strong></p></center></div>
                        <div class="col-md-2 ubi5">
                         <center><a href="registrodesecretaria"><img src="css/gestionarsecretaria.svg" class="img-rounded"></a><p><br><strong> Gestionar Secretaria<strong></p></center></div>
                         <div class="col-md-2 ubi5">
