@@ -6,20 +6,17 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\estudiante;
 
-class estudiantecontrol extends Controller {
+class estudianteController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-	public function __construct()
-	{
-	      $this->middleware('auth');	
-	}
 	public function index()
 	{
-		return view("vistas/estudiante.registroalumnos");	
+		//
+		return view('vistas/estudiantes.registroalumnos');
 	}
 
 	/**
@@ -30,7 +27,7 @@ class estudiantecontrol extends Controller {
 	public function create()
 	{
 		//
-		return view('vistas.registroalumnos');
+		
 	}
 
 	/**
@@ -42,7 +39,7 @@ class estudiantecontrol extends Controller {
 	{
 		//
 		$estudiante= estudiante::create($request->all());
-		return "El estudiante con identificacion:$estudiante->identificacion se ha creado en la base de datos";
+		return "el estudiante se ha creado";
 	}
 
 	/**

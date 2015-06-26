@@ -3,20 +3,16 @@
 <head>
   <meta charset="UTF-8">
   
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Proyecto</title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/diseño.css">
-  
-
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset ('css/diseño.css')}}">
 
    
 </head>
 <body>
 <header>
-
-
-
+<div class=" container-fluid  "> 
      <div class="row">
          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1  "></div>
          <div class=" col-xs-10 col-sm-10 col-md-10 col-lg-10"> 
@@ -25,9 +21,11 @@
                   
                 <div  class="formulario1" style="background-color: rgba(255, 255, 255, 0.3)">
                   <img  src="css/escudo.png" class="imgcentercen img-responsive">
+
                   <div class="container l ">
+
                     <div class=" container   colo1  formulario "> 
-                       <div class="col-lg-2  posc" style="height:40px; background:#000000;">
+                       <div class="col-lg-2  posc2" style="height:40px; background:#000000;">
   <ul class="nav navbar-nav navbar-right">
           @if (Auth::guest())
           <li class="dropdown " >
@@ -45,13 +43,11 @@
 </div>
 
 </div>
-
-                  
                  <div class="col-md-1 "></div>
                     <div class="col-md-2 ubi5">
                     <center><a href="administrador_est"><img src="css/gestionarestudiante.svg" class="img-rounded" ></a><p><br><strong>Gestionar Estudiantes<strong></p></center></div>
                         <div class="col-md-2  ubi5">
-                        <center><a href="secretariap"><img src="css/gestionarprofesor.svg" class="img-rounded"></a><p><br><strong> Gestionar Profesor <strong></p></center></div>
+                        <center><a href="menuprofesor"><img src="css/gestionarprofesor.svg" class="img-rounded"></a><p><br><strong> Gestionar Profesor <strong></p></center></div>
                        <div class="col-md-2 ubi5">
                         <center><a href="menu_asignatura"><img src="css/gestionarasignatura.svg" class="img-rounded"></a><p><br><strong>Gestionar Asignatura<strong></p></center></div>
                        <div class="col-md-2 ubi5">
@@ -60,20 +56,20 @@
                         <center><a href="historial"><img src="css/historial.svg" class="img-rounded"></a><p><br><strong> Historial<strong></p></center></div>
 
                        <div class="col-md-1 "></div>
-                  
-           </div>
-<div class="container " ><br><br><br><br>
+                  <div class="container u">
                   </div>
-                         
+
+                   <div class="container " ><br><br><br><br><br>
+                  </div>      
               </div>
-   
+              </div>
+
 
 
 
               </div>
            </center>
          </div>
-
          <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1  "></div>
      </div>
 </div>

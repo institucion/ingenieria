@@ -4,22 +4,17 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
-use App\estudiante;
 
-class estudiantecontrol extends Controller {
+class PostController extends Controller {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-	public function __construct()
-	{
-	      $this->middleware('auth');	
-	}
 	public function index()
 	{
-		return view("vistas/estudiante.registroalumnos");	
+		//
 	}
 
 	/**
@@ -29,8 +24,8 @@ class estudiantecontrol extends Controller {
 	 */
 	public function create()
 	{
-		//
-		return view('vistas.registroalumnos');
+		
+		return view("posts.create")
 	}
 
 	/**
@@ -38,11 +33,9 @@ class estudiantecontrol extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store(Request $request)
+	public function store()
 	{
 		//
-		$estudiante= estudiante::create($request->all());
-		return "El estudiante con identificacion:$estudiante->identificacion se ha creado en la base de datos";
 	}
 
 	/**

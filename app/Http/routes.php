@@ -15,9 +15,13 @@
 
 //Route::get('home', 'HomeController@index');
 Route::resource('/', 'administradorcontrol');
+Route::controllers([
+	'auth' => 'Auth\AuthController',
+	'password' => 'Auth\PasswordController',
+]);
 
-Route::resource('administrador_est', 'administradorcontrol');
-Route::resource('estudiante', 'estudiantecontrol');
+/*Route::resource('administrador_est', 'administradorcontrol');
+Route::resource('estudiantes', 'estudiantecontrol');
 Route::resource('modificaralumnos', 'modificaralumnoscontrol');
 Route::resource('secretariap', 'menusecretariacontrol');
 Route::resource('historial', 'menuhistorialcontrol');
@@ -49,7 +53,5 @@ Route::resource('prueba', 'control_prueba');
 Route::resource('menu_principal_sec', 'control_menu_principal');
  
 Route::resource('menu_principal_adm', 'control_menu_principal_adm');
-Route::controllers([
-	'auth' => 'Auth\AuthController',
-	'password' => 'Auth\PasswordController',
-]);
+Route::resource('post', 'PostController');*/
+Route::resource('estudiantes', 'estudianteController');

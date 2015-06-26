@@ -2,15 +2,15 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Proyecto</title>
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="css/diseño.css">
-<style type="text/css"></style>
+  <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
+  <link rel="stylesheet" type="text/css" href="{{ asset ('css/diseño.css')}}">
+
  </head>
 <body>
  <div class="container-fluid">
- <div class="row"> 
+ <div class="row "> 
  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 ">
           <div class="container-fluid  ">
@@ -26,7 +26,7 @@
       <div class="col-lg-8 container cerca ">
       <center>
       <h1 class="">Institución Educativa General Santander</h1>
-        <h5 class=" p" align="center"  >Modificar Estudiantes</h5></center>
+        <h5 class=" p" align="center"  >Consultar Estudiantes</h5></center>
   </div>
 
    </header>
@@ -34,10 +34,10 @@
    
             <div class="container formulario " >
       <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
-      <div class="col-md-8 container  cerca">
+      <div class="col-md-8 container cerca ">
       <center>
       <h2 class="">Institución Educativa General Santander</h2>
-      <h5 class=" p" align="center"  >Modificar Estudiantes</h5></center>
+      <h5 class=" p" align="center"  >Consultar Estudiantes</h5></center>
 
 </div>
    </header>
@@ -47,7 +47,7 @@
       <div class="col-sm-9 container cerca ">
       <center>
       <h3 class="">Institución Educativa General Santander</h3>
-      <h5 align="center"  >Modificar Estudiantes</h5></center>
+      <h5 align="center"  >Consultar Estudiantes</h5></center>
 
 </div>
    </header>
@@ -55,10 +55,10 @@
    
             <div class="container formulario " >
       <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter class="img-responsive"" ></div>
-      <div class="col-xs-10 container cerca">
+      <div class="col-xs-10 container cerca ">
       <center>
       <h5 class="">Institución Educativa General Santander</h5>
-      <h5   >Modificar Estudiantes</h5></center>
+      <h5   >Consultar Estudiantes</h5></center>
 </div>
 </header>
 
@@ -85,8 +85,7 @@
 
 
 
-
- <table  id="ubi" class="col-xs-6  col-sm-8  ">
+ <table  id="ubi2" class="col-xs-6  col-sm-8  ">
    <tr>
     <td>
          <div class="input-group in ">
@@ -175,7 +174,21 @@
         
 
    </tr>
-         
+            <tr>
+            <td>
+                   <div class="input-group in ">
+                           <span class="input-group-addon"><span class="glyphicon glyphicon-adjust"></span></span>
+                           <input type="text" class="form-control" placeholder="Estado" required>
+                           </div>
+                        </td>
+            
+            <td>
+              <div class="input-group in ">
+                  <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                  <input type="text" class="form-control" placeholder="Grupo"  required >
+                  </div>
+            </td>
+          </tr>
 
 </table>
 <div class="container tama"><p><br></p></div>
@@ -199,10 +212,9 @@
    </div>
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
-        <button type="submit" class="btn btn-primary form-control  atrass p" style="color: #000000" onclick="history.back()"> Atras</button>
-        <button type="submit" class="btn btn-primary form-control  consu p" style="color: #000000"> Consulta</button>
-        <button type="submit" class="btn btn-primary form-control  mod p" style="color: #000000"> Modificar</button>
-        <button type="submit" class="btn btn-primary form-control  eli p" style="color: #000000"> Eliminar</button>
+        <button type="submit" class="btn btn-primary form-control  atrasc p" style="color: #000000" onclick="history.back()"> Atras</button>
+        <button type="submit" class="btn btn-primary form-control  consuc p" style="color: #000000"> Consultar</button>
+      
 </div>
 </div>
 </div>
