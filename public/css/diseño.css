@@ -153,6 +153,11 @@ width:20%;
        
         margin-top: 20%;
           }
+           .ubi6{
+       
+        margin-top: 1%;
+          }
+
 
 .formulariofor{
   border-radius: 1em;
@@ -267,7 +272,7 @@ width:20%;
             width: 15%;
        background: #58b3e2;
      margin-top: -3%;
-     margin-left: 5%;
+     margin-left: 85%;
      border-color:black;
   }
    .consuc{
@@ -430,6 +435,10 @@ margin-top: -19%;
 
 .espacio{
   margin-top: 17%;
+
+}
+.espacio1{
+  margin-top: 10%;
 
 }
 .colocar{

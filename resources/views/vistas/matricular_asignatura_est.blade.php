@@ -87,7 +87,7 @@
   <div class="col-md-1"></div>
   <div class="  col-md-10">
 
-<div class="container-fluid espacio">
+<div class="container-fluid ">
 
 
  <div class="col-md-4">

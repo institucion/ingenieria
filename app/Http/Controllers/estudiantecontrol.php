@@ -5,6 +5,9 @@ use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 use App\estudiante;
+use App\Http\Request\CreateAlumnoRequest;
+use Illuminate\Routing\Redirector;
+use Illuminate\Support\Facades\Redirect;
 
 class estudiantecontrol extends Controller {
 
@@ -19,7 +22,7 @@ class estudiantecontrol extends Controller {
 	}
 	public function index()
 	{
-		return view("vistas/estudiante.registroalumnos");	
+		return view("vistas.registroalumnos");	
 	}
 
 	/**
@@ -30,7 +33,7 @@ class estudiantecontrol extends Controller {
 	public function create()
 	{
 		//
-		return view('vistas.registroalumnos');
+	
 	}
 
 	/**
@@ -38,11 +41,16 @@ class estudiantecontrol extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store(Request $request)
+	public function store(CreateAlumnoRequest $request)
 	{
-		//
-		$estudiante= estudiante::create($request->all());
-		return "El estudiante con identificacion:$estudiante->identificacion se ha creado en la base de datos";
+		
+	echo "ggfgvhbjhbjhbj";
+
+
+
+
+
+
 	}
 
 	/**

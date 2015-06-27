@@ -86,24 +86,30 @@
 
 {!! Form::open (['route' => 'estudiantes.store']) !!}
 
+@if (count($errors) > 0)
+            <div class="alert alert-danger" style="margin-top:2%; font-family:Calibri;">
+              <ul>
+                @foreach ($errors->all() as $error)
+                  <li>{{ $error }}</li>
+                @endforeach
+              </ul>
+            </div>
+          @endif
+
  <table  id="ubi" class="col-xs-6  col-sm-8   ">
 
    <tr>
    	<td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-tasks"></span></span>
-         <input type="text" class="form-control" placeholder="Identificacion" required>
+         {!! Form::text('identificacion',null,['class'=>'form-control', 'placeholder'=>'identificación' ]) !!}
          </div>
    	</td>
    	<td>
          <div class="input-group in">
             <span class="input-group-addon"><span class="glyphicon glyphicon-adjust" ></span></span>
-            <select class="form-control" >
-            <option> Sexo</option>
-            <option> Masculino</option>
-            <option> Femenino</option>
-		    </select>
-         </div> 
+          {!! Form::select('sexo',['Masculino'=>'Masculino','Femenino'=>'Femenino']) !!}  
+                 </div> 
    	</td>
          
         
@@ -113,16 +119,17 @@
    	<td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-         <input type="text" class="form-control" placeholder="Nombre" required>
+         {!! Form::text('nombre',null,['class'=>'form-control', 'placeholder'=>'nombre' ]) !!}
          </div>
    	</td>
     
             <td>
-                   <div class="input-group in ">
-                           <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                           <input type="text" class="form-control" placeholder="Correo" required>
-                           </div>
-                        </td>
+         <div class="input-group in ">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+          {!! Form::text('acudiente',null,['class'=>'form-control', 'placeholder'=>'Acudiente' ]) !!}
+         </div>
+    </td>
+         
          
         
 
@@ -131,13 +138,16 @@
    	<td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-         <input type="text" class="form-control" placeholder="Apellidos" required>
+          {!! Form::text('apellido',null,['class'=>'form-control', 'placeholder'=>'apellido' ]) !!}
+
          </div>
    	</td>
    	<td>
          <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-         <input type="text" class="form-control" placeholder="Acudiente" required>
+          <div class="input-group ">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-education" ></span></span>
+         {!! Form::select('grado',['grado'=>'grado','1'=>'1°','2'=>'2°','3'=>'3°','4'=>'4°','5'=>'5°','6'=>'6°','7'=>'7°','8'=>'8°','9'=>'9°','10'=>'10°','11'=>'11°']) !!}
+        </div>
          </div>
    	</td>
          
@@ -148,13 +158,15 @@
    	<td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
-         <input type="text" class="form-control" placeholder="Telefono" required>
+           {!! Form::text('telefono',null,['class'=>'form-control', 'placeholder'=>'telefono' ]) !!}
          </div>
    	</td>
    	<td>
          <div class="input-group in ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span></span>
- 	                	    <input type="text" class="form-control "  placeholder="Fec_Nac" required > 
+          <div class="input-group ">
+         <span class="input-group-addon"><span class="glyphicon glyphicon-user" ></span></span>
+         {!! Form::select('sexo',['A'=>'A','B'=>'B','C'=>'C']) !!}  
+        </div> 
  	                        </div>	
 	               	    </td>
 
@@ -169,6 +181,7 @@
 					
 
 </table>
+{!! Form::button('Registrar', ['type'=>'submit', 'class'=>'btn btn-primary form-control regis']) !!}
 <div class="container tama"><p><br></p></div>
         
 
@@ -194,12 +207,12 @@
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
       <button type="button" class="btn btn-primary form-control  atras p" style="color: #000000" onclick="history.back()"> Atras</button>
-          <button type="submit" class="btn btn-primary form-control  registar p" style="color: #000000"> Registrar</button>
+   
           
 
-  {!! form::close()!!}      
+  {!! Form::close() !!}      
 
-</div>
+
 </div>
 <footer  class="footer">
 

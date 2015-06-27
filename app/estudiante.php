@@ -3,9 +3,9 @@
 use Illuminate\Database\Eloquent\Model;
 
 class estudiante extends Model {
+	protected $table ='estudiantes';
+	protected $primarykey ='identificacion'
+	protected $fillable =['identificacion','nombre','apellido','telefono','sexo','direccion','fec_vinculacion','fec_desvinculacion','estado'];
 
-	//
-	protected $table='estudiantes';
-	protected $fillable=['identificacion,nombre,apellido,telefono,sexo,direccion,fec_nacimiento,fec_vinculacion,estado'];
 
 }

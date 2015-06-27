@@ -14,17 +14,17 @@ class CreateEstudiantesTable extends Migration {
 	{
 		Schema::create('estudiantes', function(Blueprint $table)
 		{
-			$table->integer('identificacion')->unsigned()->unique();
+			$table->integer('identificacion');
+			$table->primary('identificacion');
 			$table->string('nombre');
 			$table->string('apellido');
-			$table->integer('telefono')->unsigned();
+			$table->integer('telefono');
 			$table->string('sexo');
 			$table->mediumText('direccion');
-			$table->date('fec_nacimiento');
+			$table->date('fec_desvinculacion');
 			$table->date('fec_vinculacion');
 			$table->string('estado');
 			$table->timestamps();
-			$table->primary('identificacion');
 		});
 	}
 
