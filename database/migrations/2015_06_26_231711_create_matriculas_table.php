@@ -20,7 +20,7 @@ class CreateMatriculasTable extends Migration {
 			$table->integer('idcurso_m');
 			$table->timestamps();
 			$table->foreign('idestudiante_m')->references('identificacion')->on('estudiantes')->onDelete('cascade');
-			$table->foreign('idcurso_m')->references('idcurso')->on('cursos')->onDelete('cascade');
+			$table->foreign('idcurso_m')->references('id')->on('cursos')->onDelete('cascade');
 		});
 	}
 

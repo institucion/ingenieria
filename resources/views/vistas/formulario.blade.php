@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <title>Proyecto</title>
   <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ asset ('css/diseño.css')}}">
 
  </head>
 <body>
- <div class="container-fluid">	
+ <div class="container-fluid">  
    <div class="row">
  <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
  <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 ">
- 	        <div class="container-fluid  ">
-	
+          <div class="container-fluid  ">
+  
                 <div class="row cont ">
                      <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 " ></div>
-	  
-	                 <div class="col-xs-10 col-sm-10 col-md-10 lg-10 formulario container ubicar" style="background-color: rgba(255, 255, 255, 0.3)">
-	                   <header class="row visible-lg  ">
+    
+                   <div class="col-xs-10 col-sm-10 col-md-10 lg-10 formulario container ubicar" style="background-color: rgba(255, 255, 255, 0.3)">
+                     <header class="row visible-lg  ">
    
       <div class="container formulario"  >
       <div class=" col-xs-6 col-sm-4 col-md-4 col-lg-4"><img  src="css/escudo.png"  class="imgcenter" class="img-responsive" ></div>
@@ -85,15 +85,6 @@
 
 
 {!! Form::open (['route' => 'estudiantes.store']) !!}
- 
-@if($mensaje!="")
-   <div  class="alert alert-success" style="margin-top:2%; font-family:Calibri;">
-
-<center>{{ $mensaje }}</center>
-              
-  </div>
-@endif
-
 
 @if (count($errors) > 0)
             <div class="alert alert-danger" style="margin-top:2%; font-family:Calibri;">
@@ -108,29 +99,29 @@
  <table  id="ubi" class="col-xs-6  col-sm-8   ">
 
    <tr>
-   	<td>
+    <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-tasks"></span></span>
          {!! Form::text('identificacion',null,['class'=>'form-control', 'placeholder'=>'identificación' ]) !!}
          </div>
-   	</td>
-   	<td>
+    </td>
+    <td>
          <div class="input-group in">
             <span class="input-group-addon"><span class="glyphicon glyphicon-adjust" ></span></span>
           {!! Form::select('sexo',['Masculino'=>'Masculino','Femenino'=>'Femenino']) !!}  
                  </div> 
-   	</td>
+    </td>
          
         
 
    </tr>
    <tr>
-   	<td>
+    <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
          {!! Form::text('nombre',null,['class'=>'form-control', 'placeholder'=>'nombre' ]) !!}
          </div>
-   	</td>
+    </td>
     
             <td>
          <div class="input-group in ">
@@ -144,50 +135,50 @@
 
    </tr>
    <tr>
-   	<td>
+    <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
           {!! Form::text('apellido',null,['class'=>'form-control', 'placeholder'=>'apellido' ]) !!}
 
          </div>
-   	</td>
-   	<td>
+    </td>
+    <td>
          <div class="input-group in ">
           <div class="input-group ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-education" ></span></span>
-         {!! Form::select('grado',[1=>'1',2=>'2',3=>'3',4=>'4',5=>'5',6=>'6',7=>'7',8=>'8',9=>'9',10=>'10',11=>'11']) !!}
+         {!! Form::select('grado',['grado'=>'grado','1'=>'1°','2'=>'2°','3'=>'3°','4'=>'4°','5'=>'5°','6'=>'6°','7'=>'7°','8'=>'8°','9'=>'9°','10'=>'10°','11'=>'11°']) !!}
         </div>
-         </div
-   	</td>
+         </div>
+    </td>
          
         
 
    </tr>
   <tr>
-   	<td>
+    <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
            {!! Form::text('telefono',null,['class'=>'form-control', 'placeholder'=>'telefono' ]) !!}
          </div>
-   	</td>
-   	<td>
+    </td>
+    <td>
          <div class="input-group in ">
           <div class="input-group ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user" ></span></span>
-         {!! Form::select('grupo',['A'=>'A','B'=>'B','C'=>'C']) !!}  
+         {!! Form::select('sexo',['A'=>'A','B'=>'B','C'=>'C']) !!}  
         </div> 
- 	                        </div>	
-	               	    </td>
+                          </div>  
+                      </td>
 
          </div>
-   	</td>
+    </td>
          
         
 
    </tr>
-   				
-						
-					
+          
+            
+          
 
 </table>
 
@@ -204,8 +195,8 @@
 
 
 
-	               
-	                 <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
+                 
+                   <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
 
                </div>
 

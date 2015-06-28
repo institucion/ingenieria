@@ -19,7 +19,7 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
-
+Route::resource('formulario', 'formulario');
 Route::resource('administrador_est', 'administradorcontrol');
 Route::resource('estudiantes', 'estudiantecontrol');
 Route::resource('modificaralumnos', 'modificaralumnoscontrol');

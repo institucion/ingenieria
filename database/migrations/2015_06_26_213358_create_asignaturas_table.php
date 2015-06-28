@@ -22,7 +22,7 @@ class CreateAsignaturasTable extends Migration {
 			$table->integer('intensidad');
 			$table->string('estado');
 			$table->timestamps();
-			$table->foreign('idcurso_a')->references('idcurso')->on('cursos')->onDelete('cascade');
+			$table->foreign('idcurso_a')->references('id')->on('cursos')->onDelete('cascade');
 			
 		});
 	}

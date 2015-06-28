@@ -22,11 +22,13 @@ class CreateAlumnoRequest extends Request {
 	public function rules()
 	{
 		return [
-			'identificacion' =>'required|unique:alumnos,identificacion',
-			'nombre' =>'required',
+			'identificacion' =>'required|unique:estudiantes,identificacion',
+			'nombre'=>'required',
+			'sexo'  =>'required',
+			'acudiente' =>'required',
 			'apellido' =>'required',
 			'telefono' =>'required',
-			'acudiente' =>'required',
+			
 			
 		];
 	}
@@ -35,11 +37,11 @@ class CreateAlumnoRequest extends Request {
 	{
 		return [
 			'identificacion.required' =>'identificacion requeridad',
-			'identificacion.unique' =>'identificacion ya existe',
-			'nombre.required' =>'Falta este campo',
-			'apellido.required' =>'Falta este campo',
-			'telefono.required' =>'Falta este campo',
-			'acudiente.required' =>'Falta este campo',
+			'nombre.required'=>'required',
+			'sexo.required'  =>'required',
+			'acudiente.required' =>'required',
+			'apellido.required' =>'required',
+			'telefono.required' =>'required',
 			
 		];
 	}
