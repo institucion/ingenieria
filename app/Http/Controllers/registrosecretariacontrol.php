@@ -2,7 +2,9 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
+use App\Http\Requests\RegistrarSecretaria;
+use \App\secretaria;
+use \App\User;
 use Illuminate\Http\Request;
 
 class registrosecretariacontrol extends Controller {
@@ -18,7 +20,8 @@ class registrosecretariacontrol extends Controller {
 	}
 	public function index()
 	{
-		return view("vistas.registrodesecretaria");
+		$mensaje=NULL;
+		return view("vistas.registrodesecretaria",compact('mensaje'));
 	}
 
 	/**
@@ -36,9 +39,20 @@ class registrosecretariacontrol extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(RegistrarSecretaria $request)
 	{
-		//
+
+        
+    $insecre=secretaria::create(['cedula'=>$request->cedula, 'nombre'=>$request->nombre, 'apellido'=>$request->apellido, 'telefono'=>$request->telefono, 'contraseña'=>bcrypt($request->contraseña) ]);
+     $inuser=User::create(['usuario'=>$request->nombre,'password'=>bcrypt($request->contraseña),'tipo'=>'secretaria' ]);
+
+
+
+
+
+
+		$mensaje=" secretaria registrada ";
+			return view("vistas.registrodesecretaria",compact('mensaje'));
 	}
 
 	/**

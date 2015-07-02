@@ -25,7 +25,7 @@
                   <div class="container l ">
 
                     <div class=" container   colo1  formulario "> 
-                       <div class="col-lg-2  posc2" style="height:40px; background:#000000;">
+                       <div class="col-lg-2 poscmn " style="height:40px; background:#000000;">
   <ul class="nav navbar-nav navbar-right">
           @if (Auth::guest())
           <li class="dropdown " >

@@ -14,8 +14,8 @@ class CreateAsignaturaMatriculadasTable extends Migration {
 	{
 		Schema::create('asignatura_matriculadas', function(Blueprint $table)
 		{
-			$table->integer('idasignacion');
-			$table->primary('idasignacion');
+			$table->increments('idasignacion');
+			
 			$table->integer('identificacion_a');
 			$table->integer('codigo_a');
 			$table->integer('estado');

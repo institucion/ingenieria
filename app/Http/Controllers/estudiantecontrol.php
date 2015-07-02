@@ -6,6 +6,8 @@ use App\curso;
 use Illuminate\Http\Request;
 use App\estudiante;
 use App\matricula;
+use App\asignatura;
+use App\asignatura_matriculada;
 use App\Http\Requests\CreateAlumnoRequest;
 
 
@@ -56,9 +58,28 @@ foreach ($idcurso as $cursos) {
 
 
 
-$insalumno=estudiante::create(['identificacion'=>$request->identificacion, 'nombre'=>$request->nombre, 'apellido'=>$request->apellido, 'telefono'=>$request->telefono, 'sexo'=>$request->sexo,'direccion'=>'calle1','fec_vinculacion'=>$fecha, 'estado'=>'activo' ]);
+$insalumno=estudiante::create(['identificacion'=>$request->identificacion, 'nombre'=>$request->nombre, 'apellido'=>$request->apellido, 'acudiente'=>$request->acudiente,'telefono'=>$request->telefono, 'sexo'=>$request->sexo,'fec_vinculacion'=>$fecha, 'estado'=>'activo' ]);
 
-$insmatricula=matricula::create(['idmatricula'=>'1', 'idestudiante_m'=>$request->identificacion, 'idcurso_m'=>$id ]);
+$insmatricula=matricula::create(['idestudiante_m'=>$request->identificacion, 'idcurso_m'=>$id ]);
+
+$asig_mat;
+$asignaturas;
+//buscamos las asignaturas que pertenezcan al grupo que se matriculo al alumno
+$asignaturas=asignatura::where('idcurso_a','=',$id)->where('estado','=','Activo')->get();
+
+//le asociamos al alumno las asignaturas que se encuentren en curso en el que se matriculo
+foreach ($asignaturas as $asignatura) {
+	$asig_mat=asignatura_matriculada::where('codigo_a','=',$asignatura->codigo)->where('identificacion_a','=',$request->identificacion)->get();
+if(count($asig_mat)==0){
+	$InsertarAsigantura=asignatura_matriculada::create(['codigo_a'=>$asignatura->codigo,'identificacion_a'=>$request->identificacion,'estado'=>'Actual']);
+}
+}
+
+
+
+
+
+
 
 
 

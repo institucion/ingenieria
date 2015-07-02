@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ asset ('css/diseño.css')}}">
 
+
    
 </head>
 <body>
@@ -59,7 +60,7 @@
                   <div class="container u">
                   </div>
 
-                   <div class="container " ><br><br><br><br><br>
+                   <div class="container " ><br><br><br><br>
                   </div>      
               </div>
               </div>

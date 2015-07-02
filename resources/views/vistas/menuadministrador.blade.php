@@ -9,7 +9,6 @@
   <link rel="stylesheet" type="text/css" href="{{ asset('css/bootstrap.min.css') }}">
   <link rel="stylesheet" type="text/css" href="{{ asset ('css/diseño.css')}}">
 
-   
 </head>
 <body>
 <header>
@@ -25,8 +24,16 @@
                   <img  src="css/escudo.png" class="imgcentercen img-responsive">
                   <div class="container l ">
 
-                    <div class=" container   colo1  formulario "> 
-                       <div class="col-lg-2  posc2" style="height:40px; background:#000000;">
+                    <div class=" container   colo1  formulario  "> 
+                      <tr>
+                        <td>
+                                <div class="container">
+        <button type="submit" class="btn btn-primary form-control  a1 p" style="color: #000000" onclick="history.back()"><a href="administrador_est"> </a>Atras</button>
+        
+</div>   
+</td>
+<td>
+                       <div class="col-lg-2  posc0" style="height:40px;  background:#000000;">
   <ul class="nav navbar-nav navbar-right">
           @if (Auth::guest())
           <li class="dropdown " >
@@ -42,6 +49,8 @@
           @endif
         </ul>
 </div>
+</td>
+</tr>
 
 </div>
                   
@@ -69,10 +78,7 @@
                   
                     
               </div>
-               <div class="container-fluid">
-        <button type="submit" class="btn btn-primary form-control  atrass1 p" style="color: #000000" onclick="history.back()"> Atras</button>
-        
-</div>        
+          
               </div>
 
 

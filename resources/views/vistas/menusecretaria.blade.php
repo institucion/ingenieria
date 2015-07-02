@@ -24,8 +24,17 @@
                   <img  src="css/escudo.png" class="imgcentercen img-responsive">
                   <div class="container l ">
 
-                    <div class=" container   colo1  formulario "> 
-                       <div class="col-lg-2  posc2" style="height:40px; background:#000000;">
+
+                    <div class=" container   colo1  formulario  "> 
+                      <tr>
+                        <td>
+                                <div class="container">
+        <button type="submit" class="btn btn-primary form-control  a1 p" style="color: #000000" onclick="history.back()"><a href="administrador_est"> </a>Atras</button>
+        
+</div>   
+</td>
+<td>
+                       <div class="col-lg-2  posc0" style="height:40px;  background:#000000;">
   <ul class="nav navbar-nav navbar-right">
           @if (Auth::guest())
           <li class="dropdown " >
@@ -41,11 +50,13 @@
           @endif
         </ul>
 </div>
+</td>
+</tr>
 
 </div>
                   
                   <div class="col-md-2 ubi5"></div>
-        <div class="col-md-2 ubi5"><center><a href="estudiante"><img src="Iconos/gestionarestudiante.svg" class="img-rounded" ></a><p><br><strong>Gestionar Estudiante<strong></p></center></div>
+        <div class="col-md-2 ubi5 "><center><a href="estudiantes"><img src="Iconos/gestionarestudiante.svg" class="img-rounded " ></a><p><br><strong>Gestionar Estudiante<strong></p></center></div>
         <div class="col-md-2 ubi5"><center><a href="consultaralumnos"><img src="Iconos/consultarestudiante.svg" class="img-rounded"></a><p><br><strong>Consultar Estudiante<strong></p></center></div>
         <div class="col-md-2 ubi5"><center><a href="ver_asignaturas_estudiante"><img src="Iconos/verasignatura.svg" class="img-rounded"></a><p><br><strong>Ver Asignatura del Estudiante<strong></p></center></div>
   <div class="col-md-2 ubi5"><center><a href="notasdealumno"><img src="Iconos/notasestudiante.svg" class="img-rounded"></a><p><br><strong>Notas del Estudiante<strong></p></center></div>
@@ -57,10 +68,7 @@
                   </div>
 <div class="container " ><br><br>
                   </div>
-             <div class="container-fluid">
-        <button type="submit" class="btn btn-primary form-control  atrass1 p" style="color: #000000" onclick="history.back()"> Atras</button>
-        
-</div>        
+              
               </div>
               </div>
 

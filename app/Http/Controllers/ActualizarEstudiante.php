@@ -4,22 +4,19 @@ use App\Http\Requests;
 use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
+use App\estudiante;
+use App\Http\Requests\ActualizaraEstudiante;
 
-class menusecretariacontrol extends Controller {
+class ActualizarEstudiante extends Controller {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-
-		public function __construct()
-	{
-	      $this->middleware('auth');	
-	}
 	public function index()
 	{
-	return view("vistas.menusecretariap");
+		//
 	}
 
 	/**
@@ -37,10 +34,14 @@ class menusecretariacontrol extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(ActualizaraEstudiante $request)
 	{
 
+		$consul=estudiante::where('identificacion','=',$request->identificacion1)->update(['nombre'=>$request->nombre, 'apellido'=>$request->apellido, 'telefono'=>$request->telefono, 'sexo'=>$request->sexo, 'acudiente'=>$request->acudiente ]);
+	  
 
+$alum="A";
+return view("vistas.modificaralumnos",compact('alum'));
 	}
 
 	/**

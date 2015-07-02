@@ -16,6 +16,7 @@ class CreateAsignaturasTable extends Migration {
 		{
 			$table->integer('codigo');
 			$table->primary('codigo');
+			$table->string('nombre');
 			$table->integer('logros');
 			$table->integer('unidades');
 			$table->integer('idcurso_a');

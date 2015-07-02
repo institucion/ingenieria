@@ -2,28 +2,24 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-use App\Http\Requests\ConsultarAlumno;
-use Illuminate\Http\Request;
+use App\matricula;
 use App\curso;
 use App\estudiante;
-use App\matricula;
+use App\Http\Requests\ModificarAlumno;
+use Illuminate\Http\Request;
 
-
-class consultaralumnoscontrol extends Controller {
+class EliminarEstudiante extends Controller {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-	public function __construct()
-	{
-	      $this->middleware('auth');	
-	}
 	public function index()
 	{
-	$alum=NULL;
-	return view("vistas.consultarestudiante",compact('alum'));
+		
+			$alum=NULL;
+	return view("vistas.eliminarestudiante",compact('alum'));
 	}
 
 	/**
@@ -41,9 +37,10 @@ class consultaralumnoscontrol extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store(ConsultarAlumno $request){
+	public function store(ModificarAlumno $request)
+	{
 
-$alum;
+		$alum;
 		$idcurso=0;
 		$grado;
 		$grupo;
@@ -70,38 +67,16 @@ $cursos=curso::where('id','=',$idcurso)->get();
 ///guardamos todo en un array
 		foreach ($alumnos as $alumno) {
 $alum=array($alumno->nombre,$alumno->apellido,$alumno->identificacion,$alumno->telefono,$alumno->sexo,
-	        $grado,$grupo);
+	        $grado,$grupo,$alumno->acudiente);
 			}
 
 	}
 	else{
 		$alum="No";
 	}
+	return view("vistas.eliminarestudiante",compact('alum'));
 
-
-		
-return view("vistas.consultarestudiante",compact('alum'));
-     
-
-
-
-
-
-
-
-
-
-     }
-
-
-
-
-
-
-
-
-
-
+}
 	/**
 	 * Display the specified resource.
 	 *

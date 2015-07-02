@@ -26,7 +26,7 @@
       <div class="col-lg-8 container cerca ">
       <center>
       <h1 class="">Institución Educativa General Santander</h1>
-        <h5 class=" p" align="center"  >Modificar Estudiantes</h5></center>
+        <h5 class=" p" align="center"  >Eliminar Estudiantes</h5></center>
   </div>
 
    </header>
@@ -37,7 +37,7 @@
       <div class="col-md-8 container cerca ">
       <center>
       <h2 class="">Institución Educativa General Santander</h2>
-      <h5 class=" p" align="center"  >Modificar Estudiantes</h5></center>
+      <h5 class=" p" align="center"  >Eliminar Estudiantes</h5></center>
 
 </div>
    </header>
@@ -47,7 +47,7 @@
       <div class="col-sm-9 container  cerca">
       <center>
       <h3 class="">Institución Educativa General Santander</h3>
-      <h5 align="center"  >Modificar Estudiantes</h5></center>
+      <h5 align="center"  >Eliminar Estudiantes</h5></center>
 
 </div>
    </header>
@@ -58,7 +58,7 @@
       <div class="col-xs-10 container cerca">
       <center>
       <h5 class="">Institución Educativa General Santander</h5>
-      <h5   >Modificar Estudiantes</h5></center>
+      <h5   >Eliminar Estudiantes</h5></center>
 </div>
 </header>
 
@@ -84,7 +84,7 @@
 
 
 
-{!! Form::open (['route' => 'modificaralumnos.store']) !!}
+{!! Form::open (['route' => 'eliminarestudiante.store']) !!}
  
 
 
@@ -122,9 +122,9 @@
 
  @else
 @if($alum=="A")
- <div class="alert alert-success" style="margin-top:2%; font-family:Calibri;">alumnno actualizado</div>
+ <div class="alert alert-success" style="margin-top:2%; font-family:Calibri;">alumnno eliminado</div>
 @else
-{!! Form::open (['route' => 'actualizarestudiante.store']) !!}
+{!! Form::open (['route' => 'eliminarest.store']) !!}
 <table  id="ubir" class="col-xs-6  col-sm-8   ">
 <tr>
    
@@ -139,7 +139,7 @@
        <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-          {!! Form::text('sexo',$alum[4],['class'=>'form-control', 'placeholder'=>'sexo' ]) !!}
+          {!! Form::text('sexo',$alum[4],['class'=>'form-control', 'placeholder'=>'sexo', 'readonly' ]) !!}
 
          </div>
   
@@ -151,14 +151,14 @@
     <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-         {!! Form::text('nombre',$alum[0],['class'=>'form-control', 'placeholder'=>'nombre']) !!}
+         {!! Form::text('nombre',$alum[0],['class'=>'form-control', 'placeholder'=>'nombre','readonly']) !!}
          </div>
     </td>
     
             <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-          {!! Form::text('acudiente',$alum[7],['class'=>'form-control', 'placeholder'=>'Acudiente']) !!}
+          {!! Form::text('acudiente',$alum[7],['class'=>'form-control', 'placeholder'=>'Acudiente', 'readonly']) !!}
          </div>
     </td>
          
@@ -170,7 +170,7 @@
     <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-          {!! Form::text('apellido',$alum[1],['class'=>'form-control', 'placeholder'=>'apellido']) !!}
+          {!! Form::text('apellido',$alum[1],['class'=>'form-control', 'placeholder'=>'apellido', 'readonly']) !!}
 
          </div>
     </td>
@@ -188,7 +188,7 @@
     <td>
          <div class="input-group in ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-earphone"></span></span>
-           {!! Form::text('telefono',$alum[3],['class'=>'form-control', 'placeholder'=>'telefono']) !!}
+           {!! Form::text('telefono',$alum[3],['class'=>'form-control', 'placeholder'=>'telefono' , 'readonly']) !!}
          </div>
     </td>
           <td>
@@ -241,7 +241,7 @@
    <div class="container-fluid">
       <button type="button" class="btn btn-primary form-control  atras p" style="color: #000000" onclick="history.back()"> Atras</button>
       
-        <button type="submit" class="btn btn-primary form-control  mod p" style="color: #000000"> Modificar</button>
+        <button type="submit" class="btn btn-primary form-control  mod p" style="color: #000000"> Eliminar</button>
         
   {!! Form::close() !!}   
 

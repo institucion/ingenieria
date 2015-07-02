@@ -62,9 +62,9 @@
 </div>
 </header>
 
- <div class="container colo  formulario">
+ <div class="container col2  formulario">
 
-                     <div class="col-lg-2  posc" style="height:40px; background:#000000;">
+                     <div class="col-lg-2  posc4" style="height:40px; background:#000000;">
   <ul class="nav navbar-nav navbar-right">
           @if (Auth::guest())
           <li class="dropdown " >
@@ -153,7 +153,7 @@
    	</td>
    	<td>
          <div class="input-group in ">
-          <div class="input-group ">
+          <div class="input-group forma ">
          <span class="input-group-addon"><span class="glyphicon glyphicon-education" ></span></span>
          {!! Form::select('grado',[1=>'1',2=>'2',3=>'3',4=>'4',5=>'5',6=>'6',7=>'7',8=>'8',9=>'9',10=>'10',11=>'11']) !!}
         </div>
@@ -171,9 +171,9 @@
          </div>
    	</td>
    	<td>
-         <div class="input-group in ">
-          <div class="input-group ">
-         <span class="input-group-addon"><span class="glyphicon glyphicon-user" ></span></span>
+         <div class="input-group in1 ">
+          <div class="input-group  ">
+         <span class="input-group-addon  "><span class="glyphicon glyphicon-user" ></span></span>
          {!! Form::select('grupo',['A'=>'A','B'=>'B','C'=>'C']) !!}  
         </div> 
  	                        </div>	
@@ -220,9 +220,9 @@
    </div>
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1 "></div>
    <div class="container-fluid">
-      <button type="button" class="btn btn-primary form-control  atras p" style="color: #000000" onclick="history.back()"> Atras</button>
+      <button type="button" class="btn btn-primary form-control  atras p" style="color: #000000 " onclick="history.back()" >  Atras</button>
    
-     {!! Form::button('Registrar', ['type'=>'submit', 'class'=>'btn btn-primary form-control regis atras p', 'style'=>'color: #000000']) !!}     
+     {!! Form::button('Registrar', ['type'=>'submit', 'class'=>'btn btn-primary form-control regis registar p', 'style'=>'color: #000000']) !!}     
 
   {!! Form::close() !!}      
 

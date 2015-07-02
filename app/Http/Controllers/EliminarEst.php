@@ -2,24 +2,20 @@
 
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
-
+use App\Http\Requests\EliminarEstudiantes;
 use Illuminate\Http\Request;
+use App\estudiante;
 
-class menusecretariacontrol extends Controller {
+class EliminarEst extends Controller {
 
 	/**
 	 * Display a listing of the resource.
 	 *
 	 * @return Response
 	 */
-
-		public function __construct()
-	{
-	      $this->middleware('auth');	
-	}
 	public function index()
 	{
-	return view("vistas.menusecretariap");
+		
 	}
 
 	/**
@@ -37,10 +33,15 @@ class menusecretariacontrol extends Controller {
 	 *
 	 * @return Response
 	 */
-	public function store()
+	public function store(EliminarEstudiantes $request)
 	{
+ $fecha=date("y/m/d");
+        //compara y si coinciden hace ejecuta actualizacion
+		$consul=estudiante::where('identificacion','=',$request->identificacion1)->update(['estado'=>'inactivo', 'fec_desvinculacion'=>$fecha ]);
+	  
 
-
+$alum="A";
+return view("vistas.eliminarestudiante",compact('alum'));
 	}
 
 	/**

@@ -83,7 +83,7 @@ $this->user->save();
     public function postLogin(LoginRequest $request){
         if ($this->auth->attempt($request->only('usuario', 'password')))
         {
- //$this->auth->user()->tipo=="ccccc"
+ //comparar el tipo de ususario para  mandar a la vista asignada"
  if($this->auth->user()->tipo=="admin"){
  return redirect('/menu_principal_adm');
  }
